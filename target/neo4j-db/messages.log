@@ -1,0 +1,2066 @@
+2013-03-25 15:43:13.901+0000: WARNING! Deprecated configuration options used. See manual for details
+2013-03-25 15:43:13.916+0000: cannot configure writers and searchers individually since they go together
+2013-03-25 15:43:13.917+0000: WARNING! You are using an unsupported Java runtime. Please use JDK 6.
+2013-03-25 15:43:13.996+0000: Creating new db @ /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore
+2013-03-25 15:43:14.180+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db] brickCount=0 brickSize=891288b mappedMem=89128960b (storeSize=0b)
+2013-03-25 15:43:14.253+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db hit=1 miss=0 switches=0 ooe=0
+2013-03-25 15:43:15.007+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-03-25 15:43:15.012+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-03-25 15:43:15.041+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-03-25 15:43:15.108+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 15:43:15.164+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-03-25 15:43:15.165+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-03-25 15:43:15.166+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings] brickCount=0 brickSize=275712b mappedMem=275775488b (storeSize=128b)
+2013-03-25 15:43:15.167+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
+2013-03-25 15:43:15.170+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index] brickCount=0 brickSize=10485b mappedMem=1048576b (storeSize=0b)
+2013-03-25 15:43:15.171+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays] brickCount=0 brickSize=312448b mappedMem=312475648b (storeSize=128b)
+2013-03-25 15:43:15.175+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db] brickCount=0 brickSize=3240066b mappedMem=324009984b (storeSize=0b)
+2013-03-25 15:43:15.176+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db] brickCount=0 brickSize=3963597b mappedMem=396361728b (storeSize=0b)
+2013-03-25 15:43:15.177+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db] brickCount=0 brickSize=89127b mappedMem=89128960b (storeSize=9b)
+2013-03-25 15:43:15.178+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-03-25 15:43:15.220+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-03-25 15:43:15.287+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 15:43:15.352+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2013-03-25 15:43:15.425+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2013-03-25 15:43:15.476+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2013-03-25 15:43:15.547+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-03-25 15:43:15.599+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 15:43:15.666+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 15:43:15.735+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 15:43:15.822+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore hit=0 miss=8 switches=0 ooe=0
+2013-03-25 15:43:15.894+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-03-25 15:43:15.895+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-03-25 15:43:15.896+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings] brickCount=0 brickSize=275712b mappedMem=275775488b (storeSize=128b)
+2013-03-25 15:43:15.897+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
+2013-03-25 15:43:15.898+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index] brickCount=0 brickSize=10485b mappedMem=1048576b (storeSize=0b)
+2013-03-25 15:43:15.900+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays] brickCount=0 brickSize=312448b mappedMem=312475648b (storeSize=128b)
+2013-03-25 15:43:15.900+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db] brickCount=0 brickSize=3240066b mappedMem=324009984b (storeSize=0b)
+2013-03-25 15:43:15.901+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db] brickCount=0 brickSize=3963597b mappedMem=396361728b (storeSize=0b)
+2013-03-25 15:43:15.901+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db] brickCount=0 brickSize=89127b mappedMem=89128960b (storeSize=9b)
+2013-03-25 15:43:15.902+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-03-25 15:43:15.926+0000: Opened logical log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log.1] version=0, lastTxId=1 (clean)
+2013-03-25 15:43:15.996+0000: TM new log: tm_tx_log.1
+2013-03-25 15:43:16.071+0000: Opened logical log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log.1] version=0, lastTxId=1 (clean)
+2013-03-25 15:43:16.119+0000: --- STARTUP diagnostics START ---
+2013-03-25 15:43:16.121+0000: Neo4j Kernel properties:
+    forced_kernel_id=
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    node_auto_indexing=false
+    intercept_committing_transactions=false
+    remote_shell_name=shell
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=true
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=298M
+    neostore.propertystore.db.strings.mapped_memory=263M
+    log_mapped_memory_stats_filename=mapped_memory_stats.log
+    log_mapped_memory_stats_interval=1000000
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    remote_shell_read_only=false
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    remote_logging_host=127.0.0.1
+    store_dir=target/neo4j-db
+    online_backup_enabled=false
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    array_block_size=120
+    load_kernel_extensions=true
+    neostore.relationshipstore.db.mapped_memory=378M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=85M
+    neo4j.ext.udc.first_delay=600000
+    remote_shell_enabled=false
+    neo4j.ext.udc.reg=unreg
+    remote_shell_port=1337
+    log_mapped_memory_stats=false
+    neo_store=neostore
+    mapped_memory_page_size=1M
+    query_cache_size=100
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=309M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    neo4j.ext.udc.enabled=true
+    all_stores_total_mapped_memory_size=500M
+    online_backup_port=6362
+2013-03-25 15:43:16.126+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    LINUX_SCHEDULERS
+    NETWORK
+2013-03-25 15:43:16.126+0000: System memory information:
+    Total Physical memory: 3.73 GB
+    Free Physical memory: 1.49 GB
+    Committed virtual memory: 2.10 GB
+    Total swap space: 0.00 B
+    Free swap space: 0.00 B
+2013-03-25 15:43:16.156+0000: JVM memory information:
+    Free  memory: 51.51 MB
+    Total memory: 57.31 MB
+    Max   memory: 849.81 MB
+    Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+    Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=489.50 kB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: PS Eden Space (Heap memory): committed=15.00 MB, used=2.94 MB, max=313.75 MB, threshold=?
+    Memory Pool: PS Survivor Space (Heap memory): committed=2.44 MB, used=2.43 MB, max=2.44 MB, threshold=?
+    Memory Pool: PS Old Gen (Heap memory): committed=39.88 MB, used=446.05 kB, max=637.38 MB, threshold=0.00 B
+    Memory Pool: PS Perm Gen (Non-heap memory): committed=20.75 MB, used=7.68 MB, max=166.00 MB, threshold=0.00 B
+2013-03-25 15:43:16.192+0000: Operating system information:
+    Operating System: Linux; version: 3.8.4-1-ARCH; arch: amd64; cpus: 4
+    Max number of file descriptors: 4096
+    Number of open file descriptors: 46
+    Process id: 30551@leviathan-lin
+    Byte order: LITTLE_ENDIAN
+    Local timezone: UTC
+2013-03-25 15:43:16.198+0000: JVM information:
+    VM Name: OpenJDK 64-Bit Server VM
+    VM Vendor: Oracle Corporation
+    VM Version: 23.7-b01
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-Dfile.encoding=UTF-8]
+2013-03-25 15:43:16.200+0000: Java classpath:
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/resources.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-lucene-index-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/plugin.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-cypher-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/scala-library-2.9.1-1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/charsets.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/zipfs.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunpkcs11.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-jmx-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/rt.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/classes
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-udc-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jsse.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/Eclipse/Calculator/src/
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-shell-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/sunrsasign.jar
+     [classpath + loader.0] file:/usr/share/java/bcel-5.2.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-kernel-1.8.1.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/dnsns.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jce.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-graph-algo-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunjce_provider.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/pulse-java.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/localedata.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-graph-matching-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jfr.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/netx.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/lucene-core-3.5.0.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/rhino.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/Eclipse/buganalyzer/bin/
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/server-api-1.8.1.jar
+2013-03-25 15:43:16.203+0000: Library path:
+    /usr/java/packages/lib/amd64
+    /usr/lib
+    /usr/lib
+    /usr/lib
+    /usr/lib
+2013-03-25 15:43:16.203+0000: System.properties:
+    sun.boot.library.path = /usr/lib/jvm/java-7-openjdk/jre/lib/amd64
+    path.separator = :
+    file.encoding.pkg = sun.io
+    user.country = US
+    sun.java.launcher = SUN_STANDARD
+    sun.os.patch.level = unknown
+    user.dir = /home/itwenty/Projects/Eclipse/buganalyzer
+    sun.jnu.encoding = UTF-8
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    user.home = /home/itwenty
+    user.timezone = UTC
+    file.encoding = UTF-8
+    user.name = itwenty
+    sun.java.command = org.j2t.buganalyzer.App
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = sun.awt.X11.XToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    sun.cpu.isalist = 
+2013-03-25 15:43:16.204+0000: Linux scheduler information:
+    noop deadline [cfq] 
+    noop deadline [cfq] 
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+2013-03-25 15:43:16.207+0000: Network information:
+    Interface eth0:
+        address: 172.16.40.10
+    Interface lo:
+        address: 127.0.0.1
+2013-03-25 15:43:16.209+0000: --- STARTUP diagnostics END ---
+2013-03-25 15:43:16.213+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-03-25 15:43:16.363+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-03-25 15:43:16.367+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-03-25 15:43:16.368+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2013-03-25 15:43:16.371+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-03-25 15:43:16.371+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1364226193996, id:7348971443519364127, store version: 13561656364791302]
+2013-03-25 15:43:16.371+0000: Kernel version: Neo4j - Graph Database Kernel 1.8.1
+2013-03-25 15:43:16.371+0000: Neo4j component versions:
+2013-03-25 15:43:16.372+0000:   Neo4j - Graph Database Kernel 1.8.1
+2013-03-25 15:43:16.372+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-03-25 15:43:16.375+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-03-25 15:43:16.375+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-03-25 15:43:16.376+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-03-25 15:43:16.376+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-03-25 15:43:16.376+0000: Id usage:
+    Id usage:
+      NodeStore: used=1 high=0
+      RelationshipStore: used=0 high=-1
+      RelationshipTypeStore: used=0 high=-1
+      PropertyStore: used=0 high=-1
+      PropertyIndexStore: used=0 high=-1
+      StringPropertyStore: used=1 high=0
+      ArrayPropertyStore: used=1 high=0
+2013-03-25 15:43:16.377+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-03-25 15:43:16.377+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-03-25 15:43:16.377+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-03-25 15:43:16.377+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-03-25 15:43:16.377+0000: Disk space on partition (Total / Free / Free %): 233837043712 / 20820025344 / 91
+Storage files: (filename : modification date - size)
+      neostore.propertystore.db.arrays: 2013-03-25T15:43:15+0000 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-03-25T15:43:15+0000 - 9.00 B
+      index:
+        lucene-store.db: 2013-03-25T15:43:16+0000 - 40.00 B
+        lucene.log.1: 2013-03-25T15:43:16+0000 - 16.00 B
+        lucene.log.active: 2013-03-25T15:43:16+0000 - 4.00 B
+      - Total: 2013-03-25T15:43:16+0000 - 60.00 B
+      neostore.relationshiptypestore.db: 2013-03-25T15:43:15+0000 - 0.00 B
+      neostore.propertystore.db: 2013-03-25T15:43:15+0000 - 0.00 B
+      neostore.propertystore.db.index.keys.id: 2013-03-25T15:43:15+0000 - 9.00 B
+      active_tx_log: 2013-03-25T15:43:15+0000 - 11.00 B
+      neostore.id: 2013-03-25T15:43:15+0000 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-03-25T15:43:15+0000 - 38.00 B
+      nioneo_logical.log.1: 2013-03-25T15:43:15+0000 - 16.00 B
+      neostore.propertystore.db.id: 2013-03-25T15:43:15+0000 - 9.00 B
+      neostore: 2013-03-25T15:43:15+0000 - 54.00 B
+      lock: 2013-03-25T15:43:15+0000 - 0.00 B
+      neostore.nodestore.db: 2013-03-25T15:43:15+0000 - 9.00 B
+      neostore.propertystore.db.strings: 2013-03-25T15:43:15+0000 - 128.00 B
+      neostore.relationshipstore.db: 2013-03-25T15:43:15+0000 - 0.00 B
+      neostore.propertystore.db.strings.id: 2013-03-25T15:43:15+0000 - 9.00 B
+      nioneo_logical.log.active: 2013-03-25T15:43:15+0000 - 4.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-03-25T15:43:15+0000 - 9.00 B
+      messages.log: 2013-03-25T15:43:16+0000 - 16.53 kB
+      neostore.relationshipstore.db.id: 2013-03-25T15:43:15+0000 - 9.00 B
+      neostore.propertystore.db.index.id: 2013-03-25T15:43:15+0000 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-03-25T15:43:15+0000 - 38.00 B
+      tm_tx_log.1: 2013-03-25T15:43:16+0000 - 0.00 B
+      neostore.nodestore.db.id: 2013-03-25T15:43:15+0000 - 9.00 B
+      neostore.relationshiptypestore.db.id: 2013-03-25T15:43:15+0000 - 9.00 B
+      neostore.propertystore.db.index: 2013-03-25T15:43:15+0000 - 0.00 B
+2013-03-25 15:43:40.713+0000: WARNING! Deprecated configuration options used. See manual for details
+2013-03-25 15:43:40.728+0000: cannot configure writers and searchers individually since they go together
+2013-03-25 15:43:40.729+0000: WARNING! You are using an unsupported Java runtime. Please use JDK 6.
+2013-03-25 15:43:40.816+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names non clean shutdown detected
+2013-03-25 15:43:40.823+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-03-25 15:43:40.826+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db non clean shutdown detected
+2013-03-25 15:43:40.826+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-03-25 15:43:40.827+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings non clean shutdown detected
+2013-03-25 15:43:40.827+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings] brickCount=0 brickSize=275712b mappedMem=275775488b (storeSize=128b)
+2013-03-25 15:43:40.827+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys non clean shutdown detected
+2013-03-25 15:43:40.828+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
+2013-03-25 15:43:40.829+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index non clean shutdown detected
+2013-03-25 15:43:40.829+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index] brickCount=0 brickSize=10485b mappedMem=1048576b (storeSize=0b)
+2013-03-25 15:43:40.830+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays non clean shutdown detected
+2013-03-25 15:43:40.830+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays] brickCount=0 brickSize=312448b mappedMem=312475648b (storeSize=128b)
+2013-03-25 15:43:40.838+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db non clean shutdown detected
+2013-03-25 15:43:40.839+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db] brickCount=0 brickSize=3240066b mappedMem=324009984b (storeSize=0b)
+2013-03-25 15:43:40.841+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db non clean shutdown detected
+2013-03-25 15:43:40.841+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db] brickCount=0 brickSize=3963597b mappedMem=396361728b (storeSize=0b)
+2013-03-25 15:43:40.842+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db non clean shutdown detected
+2013-03-25 15:43:40.842+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db] brickCount=0 brickSize=89127b mappedMem=89128960b (storeSize=9b)
+2013-03-25 15:43:40.845+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore non clean shutdown detected
+2013-03-25 15:43:40.845+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-03-25 15:43:40.866+0000: Non clean shutdown detected on log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log.1]. Recovery started ...
+2013-03-25 15:43:40.871+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log.1] logVersion=0 with committed tx=1
+2013-03-25 15:43:40.871+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log.1] entries found=0 lastEntryPos=16
+2013-03-25 15:43:40.872+0000: Opened logical log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log.1] version=0, lastTxId=-1 (recovered)
+2013-03-25 15:43:40.872+0000: XaResourceManager[/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log] sorting 0 xids
+2013-03-25 15:43:40.873+0000: XaResourceManager[/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log] checkRecoveryComplete 0 xids
+2013-03-25 15:43:40.987+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2013-03-25 15:43:41.111+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys rebuild id generator, highId=1 defragged count=0
+2013-03-25 15:43:41.178+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index rebuild id generator, highId=1 defragged count=0
+2013-03-25 15:43:41.245+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2013-03-25 15:43:41.302+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2013-03-25 15:43:41.369+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db rebuild id generator, highId=1 defragged count=0
+2013-03-25 15:43:41.436+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db rebuild id generator, highId=1 defragged count=0
+2013-03-25 15:43:41.504+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db rebuild id generator, highId=1 defragged count=0
+2013-03-25 15:43:41.571+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore rebuild id generator, highId=6 defragged count=0
+2013-03-25 15:43:41.600+0000: XaResourceManager[/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log] recovery completed.
+2013-03-25 15:43:41.600+0000: Recovery on log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log.1] completed.
+2013-03-25 15:43:41.614+0000: TM opening log: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/tm_tx_log.1
+2013-03-25 15:43:41.637+0000: Non clean shutdown detected on log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log.1]. Recovery started ...
+2013-03-25 15:43:41.637+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log.1] logVersion=0 with committed tx=1
+2013-03-25 15:43:41.637+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log.1] entries found=0 lastEntryPos=16
+2013-03-25 15:43:41.637+0000: Opened logical log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log.1] version=0, lastTxId=-1 (recovered)
+2013-03-25 15:43:41.638+0000: XaResourceManager[/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log] sorting 0 xids
+2013-03-25 15:43:41.638+0000: XaResourceManager[/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log] checkRecoveryComplete 0 xids
+2013-03-25 15:43:41.638+0000: XaResourceManager[/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log] recovery completed.
+2013-03-25 15:43:41.638+0000: Recovery on log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log.1] completed.
+2013-03-25 15:43:41.641+0000: --- STARTUP diagnostics START ---
+2013-03-25 15:43:41.643+0000: Neo4j Kernel properties:
+    forced_kernel_id=
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    node_auto_indexing=false
+    intercept_committing_transactions=false
+    remote_shell_name=shell
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=true
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=298M
+    neostore.propertystore.db.strings.mapped_memory=263M
+    log_mapped_memory_stats_filename=mapped_memory_stats.log
+    log_mapped_memory_stats_interval=1000000
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    remote_shell_read_only=false
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    remote_logging_host=127.0.0.1
+    store_dir=target/neo4j-db
+    online_backup_enabled=false
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    array_block_size=120
+    load_kernel_extensions=true
+    neostore.relationshipstore.db.mapped_memory=378M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=85M
+    neo4j.ext.udc.first_delay=600000
+    remote_shell_enabled=false
+    neo4j.ext.udc.reg=unreg
+    remote_shell_port=1337
+    log_mapped_memory_stats=false
+    neo_store=neostore
+    mapped_memory_page_size=1M
+    query_cache_size=100
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=309M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    neo4j.ext.udc.enabled=true
+    all_stores_total_mapped_memory_size=500M
+    online_backup_port=6362
+2013-03-25 15:43:41.647+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    LINUX_SCHEDULERS
+    NETWORK
+2013-03-25 15:43:41.648+0000: System memory information:
+    Total Physical memory: 3.73 GB
+    Free Physical memory: 1.48 GB
+    Committed virtual memory: 2.10 GB
+    Total swap space: 0.00 B
+    Free swap space: 0.00 B
+2013-03-25 15:43:41.651+0000: JVM memory information:
+    Free  memory: 50.92 MB
+    Total memory: 57.31 MB
+    Max   memory: 849.81 MB
+    Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+    Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=489.06 kB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: PS Eden Space (Heap memory): committed=15.00 MB, used=3.40 MB, max=313.75 MB, threshold=?
+    Memory Pool: PS Survivor Space (Heap memory): committed=2.44 MB, used=2.43 MB, max=2.44 MB, threshold=?
+    Memory Pool: PS Old Gen (Heap memory): committed=39.88 MB, used=578.47 kB, max=637.38 MB, threshold=0.00 B
+    Memory Pool: PS Perm Gen (Non-heap memory): committed=20.75 MB, used=7.79 MB, max=166.00 MB, threshold=0.00 B
+2013-03-25 15:43:41.656+0000: Operating system information:
+    Operating System: Linux; version: 3.8.4-1-ARCH; arch: amd64; cpus: 4
+    Max number of file descriptors: 4096
+    Number of open file descriptors: 47
+    Process id: 30591@leviathan-lin
+    Byte order: LITTLE_ENDIAN
+    Local timezone: UTC
+2013-03-25 15:43:41.662+0000: JVM information:
+    VM Name: OpenJDK 64-Bit Server VM
+    VM Vendor: Oracle Corporation
+    VM Version: 23.7-b01
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-Dfile.encoding=UTF-8]
+2013-03-25 15:43:41.663+0000: Java classpath:
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/resources.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-lucene-index-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/plugin.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-cypher-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/scala-library-2.9.1-1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/charsets.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/zipfs.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunpkcs11.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-jmx-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/rt.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/classes
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-udc-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jsse.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/Eclipse/Calculator/src/
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-shell-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/sunrsasign.jar
+     [classpath + loader.0] file:/usr/share/java/bcel-5.2.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-kernel-1.8.1.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/dnsns.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jce.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-graph-algo-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunjce_provider.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/pulse-java.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/localedata.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-graph-matching-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jfr.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/netx.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/lucene-core-3.5.0.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/rhino.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/Eclipse/buganalyzer/bin/
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/server-api-1.8.1.jar
+2013-03-25 15:43:41.665+0000: Library path:
+    /usr/java/packages/lib/amd64
+    /usr/lib
+    /usr/lib
+    /usr/lib
+    /usr/lib
+2013-03-25 15:43:41.666+0000: System.properties:
+    sun.boot.library.path = /usr/lib/jvm/java-7-openjdk/jre/lib/amd64
+    path.separator = :
+    file.encoding.pkg = sun.io
+    user.country = US
+    sun.java.launcher = SUN_STANDARD
+    sun.os.patch.level = unknown
+    user.dir = /home/itwenty/Projects/Eclipse/buganalyzer
+    sun.jnu.encoding = UTF-8
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    user.home = /home/itwenty
+    user.timezone = UTC
+    file.encoding = UTF-8
+    user.name = itwenty
+    sun.java.command = org.j2t.buganalyzer.App
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = sun.awt.X11.XToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    sun.cpu.isalist = 
+2013-03-25 15:43:41.666+0000: Linux scheduler information:
+    noop deadline [cfq] 
+    noop deadline [cfq] 
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+2013-03-25 15:43:41.668+0000: Network information:
+    Interface eth0:
+        address: 172.16.40.10
+    Interface lo:
+        address: 127.0.0.1
+2013-03-25 15:43:41.670+0000: --- STARTUP diagnostics END ---
+2013-03-25 15:43:41.674+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-03-25 15:43:41.758+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-03-25 15:43:41.761+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-03-25 15:43:41.762+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2013-03-25 15:43:41.766+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-03-25 15:43:41.766+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1364226193996, id:7348971443519364127, store version: 13561656364791302]
+2013-03-25 15:43:41.766+0000: Kernel version: Neo4j - Graph Database Kernel 1.8.1
+2013-03-25 15:43:41.766+0000: Neo4j component versions:
+2013-03-25 15:43:41.767+0000:   Neo4j - Graph Database Kernel 1.8.1
+2013-03-25 15:43:41.767+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-03-25 15:43:41.769+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-03-25 15:43:41.770+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-03-25 15:43:41.770+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-03-25 15:43:41.770+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-03-25 15:43:41.770+0000: Id usage:
+    Id usage:
+      NodeStore: used=1 high=0
+      RelationshipStore: used=1 high=0
+      RelationshipTypeStore: used=0 high=-1
+      PropertyStore: used=1 high=0
+      PropertyIndexStore: used=1 high=0
+      StringPropertyStore: used=1 high=0
+      ArrayPropertyStore: used=1 high=0
+2013-03-25 15:43:41.771+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-03-25 15:43:41.771+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-03-25 15:43:41.771+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-03-25 15:43:41.771+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-03-25 15:43:41.772+0000: Disk space on partition (Total / Free / Free %): 233837043712 / 20820455424 / 91
+Storage files: (filename : modification date - size)
+      neostore.propertystore.db.arrays: 2013-03-25T15:43:15+0000 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-03-25T15:43:41+0000 - 9.00 B
+      index:
+        lucene-store.db: 2013-03-25T15:43:41+0000 - 40.00 B
+        lucene.log.1: 2013-03-25T15:43:16+0000 - 16.00 B
+        lucene.log.active: 2013-03-25T15:43:16+0000 - 4.00 B
+      - Total: 2013-03-25T15:43:16+0000 - 60.00 B
+      neostore.relationshiptypestore.db: 2013-03-25T15:43:41+0000 - 0.00 B
+      neostore.propertystore.db: 2013-03-25T15:43:15+0000 - 0.00 B
+      neostore.propertystore.db.index.keys.id: 2013-03-25T15:43:41+0000 - 9.00 B
+      active_tx_log: 2013-03-25T15:43:15+0000 - 11.00 B
+      neostore.id: 2013-03-25T15:43:41+0000 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-03-25T15:43:15+0000 - 38.00 B
+      nioneo_logical.log.1: 2013-03-25T15:43:15+0000 - 16.00 B
+      neostore.propertystore.db.id: 2013-03-25T15:43:41+0000 - 9.00 B
+      neostore: 2013-03-25T15:43:41+0000 - 54.00 B
+      lock: 2013-03-25T15:43:15+0000 - 0.00 B
+      neostore.nodestore.db: 2013-03-25T15:43:15+0000 - 9.00 B
+      neostore.propertystore.db.strings: 2013-03-25T15:43:15+0000 - 128.00 B
+      neostore.relationshipstore.db: 2013-03-25T15:43:15+0000 - 0.00 B
+      neostore.propertystore.db.strings.id: 2013-03-25T15:43:41+0000 - 9.00 B
+      nioneo_logical.log.active: 2013-03-25T15:43:15+0000 - 4.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-03-25T15:43:41+0000 - 9.00 B
+      messages.log: 2013-03-25T15:43:41+0000 - 36.23 kB
+      neostore.relationshipstore.db.id: 2013-03-25T15:43:41+0000 - 9.00 B
+      neostore.propertystore.db.index.id: 2013-03-25T15:43:41+0000 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-03-25T15:43:15+0000 - 38.00 B
+      tm_tx_log.1: 2013-03-25T15:43:41+0000 - 0.00 B
+      neostore.nodestore.db.id: 2013-03-25T15:43:41+0000 - 9.00 B
+      neostore.relationshiptypestore.db.id: 2013-03-25T15:43:41+0000 - 9.00 B
+      neostore.propertystore.db.index: 2013-03-25T15:43:41+0000 - 10.24 kB
+2013-03-25 15:52:15.028+0000: WARNING! Deprecated configuration options used. See manual for details
+2013-03-25 15:52:15.049+0000: cannot configure writers and searchers individually since they go together
+2013-03-25 15:52:15.050+0000: WARNING! You are using an unsupported Java runtime. Please use JDK 6.
+2013-03-25 15:52:15.140+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names non clean shutdown detected
+2013-03-25 15:52:15.145+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-03-25 15:52:15.148+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db non clean shutdown detected
+2013-03-25 15:52:15.148+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-03-25 15:52:15.149+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings non clean shutdown detected
+2013-03-25 15:52:15.149+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings] brickCount=0 brickSize=275712b mappedMem=275775488b (storeSize=128b)
+2013-03-25 15:52:15.149+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys non clean shutdown detected
+2013-03-25 15:52:15.150+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
+2013-03-25 15:52:15.151+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index non clean shutdown detected
+2013-03-25 15:52:15.151+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index] brickCount=10 brickSize=1044b mappedMem=1048576b (storeSize=10485b)
+2013-03-25 15:52:15.152+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays non clean shutdown detected
+2013-03-25 15:52:15.152+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays] brickCount=0 brickSize=312448b mappedMem=312475648b (storeSize=128b)
+2013-03-25 15:52:15.161+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db non clean shutdown detected
+2013-03-25 15:52:15.161+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db] brickCount=0 brickSize=3240066b mappedMem=324009984b (storeSize=0b)
+2013-03-25 15:52:15.164+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db non clean shutdown detected
+2013-03-25 15:52:15.164+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db] brickCount=0 brickSize=3963597b mappedMem=396361728b (storeSize=0b)
+2013-03-25 15:52:15.165+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db non clean shutdown detected
+2013-03-25 15:52:15.165+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db] brickCount=0 brickSize=89127b mappedMem=89128960b (storeSize=9b)
+2013-03-25 15:52:15.168+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore non clean shutdown detected
+2013-03-25 15:52:15.168+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-03-25 15:52:15.189+0000: Non clean shutdown detected on log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log.1]. Recovery started ...
+2013-03-25 15:52:15.193+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log.1] logVersion=0 with committed tx=1
+2013-03-25 15:52:15.194+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log.1] entries found=0 lastEntryPos=16
+2013-03-25 15:52:15.194+0000: Opened logical log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log.1] version=0, lastTxId=-1 (recovered)
+2013-03-25 15:52:15.194+0000: XaResourceManager[/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log] sorting 0 xids
+2013-03-25 15:52:15.195+0000: XaResourceManager[/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log] checkRecoveryComplete 0 xids
+2013-03-25 15:52:15.259+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2013-03-25 15:52:15.381+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys rebuild id generator, highId=1 defragged count=0
+2013-03-25 15:52:15.473+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index rebuild id generator, highId=1 defragged count=0
+2013-03-25 15:52:15.551+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2013-03-25 15:52:15.619+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2013-03-25 15:52:15.675+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db rebuild id generator, highId=1 defragged count=0
+2013-03-25 15:52:15.731+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db rebuild id generator, highId=1 defragged count=0
+2013-03-25 15:52:15.787+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db rebuild id generator, highId=1 defragged count=0
+2013-03-25 15:52:15.844+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore rebuild id generator, highId=6 defragged count=0
+2013-03-25 15:52:15.866+0000: XaResourceManager[/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log] recovery completed.
+2013-03-25 15:52:15.867+0000: Recovery on log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log.1] completed.
+2013-03-25 15:52:15.883+0000: TM opening log: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/tm_tx_log.1
+2013-03-25 15:52:15.906+0000: Non clean shutdown detected on log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log.1]. Recovery started ...
+2013-03-25 15:52:15.906+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log.1] logVersion=0 with committed tx=1
+2013-03-25 15:52:15.906+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log.1] entries found=0 lastEntryPos=16
+2013-03-25 15:52:15.906+0000: Opened logical log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log.1] version=0, lastTxId=-1 (recovered)
+2013-03-25 15:52:15.907+0000: XaResourceManager[/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log] sorting 0 xids
+2013-03-25 15:52:15.907+0000: XaResourceManager[/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log] checkRecoveryComplete 0 xids
+2013-03-25 15:52:15.907+0000: XaResourceManager[/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log] recovery completed.
+2013-03-25 15:52:15.907+0000: Recovery on log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log.1] completed.
+2013-03-25 15:52:15.911+0000: --- STARTUP diagnostics START ---
+2013-03-25 15:52:15.913+0000: Neo4j Kernel properties:
+    forced_kernel_id=
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    node_auto_indexing=false
+    intercept_committing_transactions=false
+    remote_shell_name=shell
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=true
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=298M
+    neostore.propertystore.db.strings.mapped_memory=263M
+    log_mapped_memory_stats_filename=mapped_memory_stats.log
+    log_mapped_memory_stats_interval=1000000
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    remote_shell_read_only=false
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    remote_logging_host=127.0.0.1
+    store_dir=target/neo4j-db
+    online_backup_enabled=false
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    array_block_size=120
+    load_kernel_extensions=true
+    neostore.relationshipstore.db.mapped_memory=378M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=85M
+    neo4j.ext.udc.first_delay=600000
+    remote_shell_enabled=false
+    neo4j.ext.udc.reg=unreg
+    remote_shell_port=1337
+    log_mapped_memory_stats=false
+    neo_store=neostore
+    mapped_memory_page_size=1M
+    query_cache_size=100
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=309M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    neo4j.ext.udc.enabled=true
+    all_stores_total_mapped_memory_size=500M
+    online_backup_port=6362
+2013-03-25 15:52:15.917+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    LINUX_SCHEDULERS
+    NETWORK
+2013-03-25 15:52:15.918+0000: System memory information:
+    Total Physical memory: 3.73 GB
+    Free Physical memory: 1.59 GB
+    Committed virtual memory: 2.10 GB
+    Total swap space: 0.00 B
+    Free swap space: 0.00 B
+2013-03-25 15:52:15.921+0000: JVM memory information:
+    Free  memory: 50.89 MB
+    Total memory: 57.31 MB
+    Max   memory: 849.81 MB
+    Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+    Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=489.81 kB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: PS Eden Space (Heap memory): committed=15.00 MB, used=3.43 MB, max=313.75 MB, threshold=?
+    Memory Pool: PS Survivor Space (Heap memory): committed=2.44 MB, used=2.43 MB, max=2.44 MB, threshold=?
+    Memory Pool: PS Old Gen (Heap memory): committed=39.88 MB, used=578.47 kB, max=637.38 MB, threshold=0.00 B
+    Memory Pool: PS Perm Gen (Non-heap memory): committed=20.75 MB, used=7.80 MB, max=166.00 MB, threshold=0.00 B
+2013-03-25 15:52:15.926+0000: Operating system information:
+    Operating System: Linux; version: 3.8.4-1-ARCH; arch: amd64; cpus: 4
+    Max number of file descriptors: 4096
+    Number of open file descriptors: 47
+    Process id: 30771@leviathan-lin
+    Byte order: LITTLE_ENDIAN
+    Local timezone: UTC
+2013-03-25 15:52:15.933+0000: JVM information:
+    VM Name: OpenJDK 64-Bit Server VM
+    VM Vendor: Oracle Corporation
+    VM Version: 23.7-b01
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-Dfile.encoding=UTF-8]
+2013-03-25 15:52:15.934+0000: Java classpath:
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/resources.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-lucene-index-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/plugin.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-cypher-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/scala-library-2.9.1-1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/charsets.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/zipfs.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunpkcs11.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-jmx-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/rt.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/classes
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-udc-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jsse.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/Eclipse/Calculator/src/
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-shell-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/sunrsasign.jar
+     [classpath + loader.0] file:/usr/share/java/bcel-5.2.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-kernel-1.8.1.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/dnsns.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jce.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-graph-algo-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunjce_provider.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/pulse-java.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/localedata.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-graph-matching-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jfr.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/netx.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/lucene-core-3.5.0.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/rhino.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/Eclipse/buganalyzer/bin/
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/server-api-1.8.1.jar
+2013-03-25 15:52:15.937+0000: Library path:
+    /usr/java/packages/lib/amd64
+    /usr/lib
+    /usr/lib
+    /usr/lib
+    /usr/lib
+2013-03-25 15:52:15.938+0000: System.properties:
+    sun.boot.library.path = /usr/lib/jvm/java-7-openjdk/jre/lib/amd64
+    path.separator = :
+    file.encoding.pkg = sun.io
+    user.country = US
+    sun.java.launcher = SUN_STANDARD
+    sun.os.patch.level = unknown
+    user.dir = /home/itwenty/Projects/Eclipse/buganalyzer
+    sun.jnu.encoding = UTF-8
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    user.home = /home/itwenty
+    user.timezone = UTC
+    file.encoding = UTF-8
+    user.name = itwenty
+    sun.java.command = org.j2t.buganalyzer.App
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = sun.awt.X11.XToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    sun.cpu.isalist = 
+2013-03-25 15:52:15.939+0000: Linux scheduler information:
+    noop deadline [cfq] 
+    noop deadline [cfq] 
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+2013-03-25 15:52:15.941+0000: Network information:
+    Interface eth0:
+        address: 172.16.40.10
+    Interface lo:
+        address: 127.0.0.1
+2013-03-25 15:52:15.944+0000: --- STARTUP diagnostics END ---
+2013-03-25 15:52:15.948+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-03-25 15:52:16.033+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-03-25 15:52:16.037+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-03-25 15:52:16.038+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2013-03-25 15:52:16.041+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-03-25 15:52:16.041+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1364226193996, id:7348971443519364127, store version: 13561656364791302]
+2013-03-25 15:52:16.041+0000: Kernel version: Neo4j - Graph Database Kernel 1.8.1
+2013-03-25 15:52:16.042+0000: Neo4j component versions:
+2013-03-25 15:52:16.043+0000:   Neo4j - Graph Database Kernel 1.8.1
+2013-03-25 15:52:16.043+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-03-25 15:52:16.045+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-03-25 15:52:16.046+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-03-25 15:52:16.046+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-03-25 15:52:16.046+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-03-25 15:52:16.046+0000: Id usage:
+    Id usage:
+      NodeStore: used=1 high=0
+      RelationshipStore: used=1 high=0
+      RelationshipTypeStore: used=0 high=-1
+      PropertyStore: used=1 high=0
+      PropertyIndexStore: used=1 high=0
+      StringPropertyStore: used=1 high=0
+      ArrayPropertyStore: used=1 high=0
+2013-03-25 15:52:16.047+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-03-25 15:52:16.047+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-03-25 15:52:16.047+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-03-25 15:52:16.047+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-03-25 15:52:16.048+0000: Disk space on partition (Total / Free / Free %): 233837043712 / 20818841600 / 91
+Storage files: (filename : modification date - size)
+      neostore.propertystore.db.arrays: 2013-03-25T15:43:15+0000 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-03-25T15:52:15+0000 - 9.00 B
+      index:
+        lucene-store.db: 2013-03-25T15:52:15+0000 - 40.00 B
+        lucene.log.1: 2013-03-25T15:43:16+0000 - 16.00 B
+        lucene.log.active: 2013-03-25T15:43:16+0000 - 4.00 B
+      - Total: 2013-03-25T15:43:16+0000 - 60.00 B
+      neostore.relationshiptypestore.db: 2013-03-25T15:52:15+0000 - 0.00 B
+      neostore.propertystore.db: 2013-03-25T15:43:15+0000 - 0.00 B
+      neostore.propertystore.db.index.keys.id: 2013-03-25T15:52:15+0000 - 9.00 B
+      active_tx_log: 2013-03-25T15:43:15+0000 - 11.00 B
+      neostore.id: 2013-03-25T15:52:15+0000 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-03-25T15:43:15+0000 - 38.00 B
+      nioneo_logical.log.1: 2013-03-25T15:43:15+0000 - 16.00 B
+      neostore.propertystore.db.id: 2013-03-25T15:52:15+0000 - 9.00 B
+      neostore: 2013-03-25T15:52:15+0000 - 54.00 B
+      lock: 2013-03-25T15:43:15+0000 - 0.00 B
+      neostore.nodestore.db: 2013-03-25T15:43:15+0000 - 9.00 B
+      neostore.propertystore.db.strings: 2013-03-25T15:43:15+0000 - 128.00 B
+      neostore.relationshipstore.db: 2013-03-25T15:43:15+0000 - 0.00 B
+      neostore.propertystore.db.strings.id: 2013-03-25T15:52:15+0000 - 9.00 B
+      nioneo_logical.log.active: 2013-03-25T15:43:15+0000 - 4.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-03-25T15:52:15+0000 - 9.00 B
+      messages.log: 2013-03-25T15:52:16+0000 - 55.93 kB
+      neostore.relationshipstore.db.id: 2013-03-25T15:52:15+0000 - 9.00 B
+      neostore.propertystore.db.index.id: 2013-03-25T15:52:15+0000 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-03-25T15:43:15+0000 - 38.00 B
+      tm_tx_log.1: 2013-03-25T15:52:15+0000 - 0.00 B
+      neostore.nodestore.db.id: 2013-03-25T15:52:15+0000 - 9.00 B
+      neostore.relationshiptypestore.db.id: 2013-03-25T15:52:15+0000 - 9.00 B
+      neostore.propertystore.db.index: 2013-03-25T15:43:41+0000 - 10.24 kB
+2013-03-25 15:52:16.056+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-03-25 15:52:16.058+0000: Started - database is now available
+2013-03-25 15:52:16.058+0000: GC Monitor started. 
+2013-03-25 15:52:33.419+0000: Stopping - database is now unavailable
+2013-03-25 15:52:33.457+0000: TM shutting down
+2013-03-25 15:52:33.477+0000: Closed log /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log
+2013-03-25 15:52:33.480+0000: GC Monitor stopped. 
+2013-03-25 15:52:33.655+0000: Closed log /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log
+2013-03-25 15:52:33.655+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-03-25 15:52:33.715+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 15:52:33.782+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings hit=4 miss=0 switches=0 ooe=0
+2013-03-25 15:52:33.849+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys hit=1 miss=0 switches=0 ooe=0
+2013-03-25 15:52:33.915+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index hit=0 miss=2 switches=0 ooe=0
+2013-03-25 15:52:33.971+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-03-25 15:52:34.027+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db hit=1 miss=0 switches=0 ooe=0
+2013-03-25 15:52:34.094+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 15:52:34.161+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db hit=1 miss=0 switches=0 ooe=0
+2013-03-25 15:52:34.245+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore hit=0 miss=18 switches=0 ooe=0
+2013-03-25 15:52:34.306+0000: NeoStore closed
+2013-03-25 15:52:34.306+0000: --- SHUTDOWN diagnostics START ---
+2013-03-25 15:52:34.306+0000: --- SHUTDOWN diagnostics END ---
+2013-03-25 16:08:15.033+0000: WARNING! Deprecated configuration options used. See manual for details
+2013-03-25 16:08:15.054+0000: cannot configure writers and searchers individually since they go together
+2013-03-25 16:08:15.055+0000: WARNING! You are using an unsupported Java runtime. Please use JDK 6.
+2013-03-25 16:08:15.151+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-03-25 16:08:15.155+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-03-25 16:08:15.155+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings] brickCount=0 brickSize=275712b mappedMem=275775488b (storeSize=640b)
+2013-03-25 16:08:15.155+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=76b)
+2013-03-25 16:08:15.157+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index] brickCount=0 brickSize=1044b mappedMem=1048576b (storeSize=18b)
+2013-03-25 16:08:15.158+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays] brickCount=0 brickSize=312448b mappedMem=312475648b (storeSize=128b)
+2013-03-25 16:08:15.160+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db] brickCount=0 brickSize=323982b mappedMem=324009984b (storeSize=82b)
+2013-03-25 16:08:15.162+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db] brickCount=0 brickSize=396330b mappedMem=396361728b (storeSize=33b)
+2013-03-25 16:08:15.165+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db] brickCount=0 brickSize=89127b mappedMem=89128960b (storeSize=18b)
+2013-03-25 16:08:15.165+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-03-25 16:08:15.186+0000: Opened logical log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log.1] version=1, lastTxId=2 (clean)
+2013-03-25 16:08:15.224+0000: TM opening log: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/tm_tx_log.1
+2013-03-25 16:08:15.254+0000: Opened logical log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log.1] version=1, lastTxId=1 (clean)
+2013-03-25 16:08:15.271+0000: --- STARTUP diagnostics START ---
+2013-03-25 16:08:15.274+0000: Neo4j Kernel properties:
+    forced_kernel_id=
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    node_auto_indexing=false
+    intercept_committing_transactions=false
+    remote_shell_name=shell
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=true
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=298M
+    neostore.propertystore.db.strings.mapped_memory=263M
+    log_mapped_memory_stats_filename=mapped_memory_stats.log
+    log_mapped_memory_stats_interval=1000000
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    remote_shell_read_only=false
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    remote_logging_host=127.0.0.1
+    store_dir=target/neo4j-db
+    online_backup_enabled=false
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    array_block_size=120
+    load_kernel_extensions=true
+    neostore.relationshipstore.db.mapped_memory=378M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=85M
+    neo4j.ext.udc.first_delay=600000
+    remote_shell_enabled=false
+    neo4j.ext.udc.reg=unreg
+    remote_shell_port=1337
+    log_mapped_memory_stats=false
+    neo_store=neostore
+    mapped_memory_page_size=1M
+    query_cache_size=100
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=309M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    neo4j.ext.udc.enabled=true
+    all_stores_total_mapped_memory_size=500M
+    online_backup_port=6362
+2013-03-25 16:08:15.282+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    LINUX_SCHEDULERS
+    NETWORK
+2013-03-25 16:08:15.282+0000: System memory information:
+    Total Physical memory: 3.73 GB
+    Free Physical memory: 1.47 GB
+    Committed virtual memory: 2.10 GB
+    Total swap space: 0.00 B
+    Free swap space: 0.00 B
+2013-03-25 16:08:15.287+0000: JVM memory information:
+    Free  memory: 52.92 MB
+    Total memory: 57.31 MB
+    Max   memory: 849.81 MB
+    Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+    Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=488.69 kB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: PS Eden Space (Heap memory): committed=15.00 MB, used=1.20 MB, max=313.75 MB, threshold=?
+    Memory Pool: PS Survivor Space (Heap memory): committed=2.44 MB, used=2.41 MB, max=2.44 MB, threshold=?
+    Memory Pool: PS Old Gen (Heap memory): committed=39.88 MB, used=792.74 kB, max=637.38 MB, threshold=0.00 B
+    Memory Pool: PS Perm Gen (Non-heap memory): committed=20.75 MB, used=7.66 MB, max=166.00 MB, threshold=0.00 B
+2013-03-25 16:08:15.292+0000: Operating system information:
+    Operating System: Linux; version: 3.8.4-1-ARCH; arch: amd64; cpus: 4
+    Max number of file descriptors: 4096
+    Number of open file descriptors: 46
+    Process id: 30990@leviathan-lin
+    Byte order: LITTLE_ENDIAN
+    Local timezone: UTC
+2013-03-25 16:08:15.298+0000: JVM information:
+    VM Name: OpenJDK 64-Bit Server VM
+    VM Vendor: Oracle Corporation
+    VM Version: 23.7-b01
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-Dfile.encoding=UTF-8]
+2013-03-25 16:08:15.298+0000: Java classpath:
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/resources.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-lucene-index-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/plugin.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-cypher-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/scala-library-2.9.1-1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/charsets.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/zipfs.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunpkcs11.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-jmx-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/rt.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/classes
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-udc-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jsse.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/Eclipse/Calculator/src/
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-shell-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/sunrsasign.jar
+     [classpath + loader.0] file:/usr/share/java/bcel-5.2.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-kernel-1.8.1.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/dnsns.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jce.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-graph-algo-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunjce_provider.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/pulse-java.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/localedata.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-graph-matching-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jfr.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/netx.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/lucene-core-3.5.0.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/rhino.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/Eclipse/buganalyzer/bin/
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/server-api-1.8.1.jar
+2013-03-25 16:08:15.300+0000: Library path:
+    /usr/java/packages/lib/amd64
+    /usr/lib
+    /usr/lib
+    /usr/lib
+    /usr/lib
+2013-03-25 16:08:15.301+0000: System.properties:
+    sun.boot.library.path = /usr/lib/jvm/java-7-openjdk/jre/lib/amd64
+    path.separator = :
+    file.encoding.pkg = sun.io
+    user.country = US
+    sun.java.launcher = SUN_STANDARD
+    sun.os.patch.level = unknown
+    user.dir = /home/itwenty/Projects/Eclipse/buganalyzer
+    sun.jnu.encoding = UTF-8
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    user.home = /home/itwenty
+    user.timezone = UTC
+    file.encoding = UTF-8
+    user.name = itwenty
+    sun.java.command = org.j2t.buganalyzer.App
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = sun.awt.X11.XToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    sun.cpu.isalist = 
+2013-03-25 16:08:15.302+0000: Linux scheduler information:
+    noop deadline [cfq] 
+    noop deadline [cfq] 
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+2013-03-25 16:08:15.305+0000: Network information:
+    Interface eth0:
+        address: 172.16.40.10
+    Interface lo:
+        address: 127.0.0.1
+2013-03-25 16:08:15.307+0000: --- STARTUP diagnostics END ---
+2013-03-25 16:08:15.316+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-03-25 16:08:15.407+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-03-25 16:08:15.412+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-03-25 16:08:15.413+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2013-03-25 16:08:15.417+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-03-25 16:08:15.417+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1364226193996, id:7348971443519364127, store version: 13561656364791302]
+2013-03-25 16:08:15.417+0000: Kernel version: Neo4j - Graph Database Kernel 1.8.1
+2013-03-25 16:08:15.417+0000: Neo4j component versions:
+2013-03-25 16:08:15.418+0000:   Neo4j - Graph Database Kernel 1.8.1
+2013-03-25 16:08:15.418+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-03-25 16:08:15.421+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-03-25 16:08:15.421+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-03-25 16:08:15.422+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-03-25 16:08:15.422+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-03-25 16:08:15.422+0000: Id usage:
+    Id usage:
+      NodeStore: used=2 high=1
+      RelationshipStore: used=1 high=0
+      RelationshipTypeStore: used=0 high=-1
+      PropertyStore: used=2 high=1
+      PropertyIndexStore: used=2 high=1
+      StringPropertyStore: used=5 high=4
+      ArrayPropertyStore: used=1 high=0
+2013-03-25 16:08:15.423+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-03-25 16:08:15.423+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-03-25 16:08:15.423+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-03-25 16:08:15.424+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-03-25 16:08:15.424+0000: Disk space on partition (Total / Free / Free %): 233837043712 / 20817440768 / 91
+Storage files: (filename : modification date - size)
+      neostore.propertystore.db.arrays: 2013-03-25T16:08:15+0000 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-03-25T16:08:15+0000 - 9.00 B
+      index:
+        lucene-store.db: 2013-03-25T15:52:33+0000 - 40.00 B
+        lucene.log.v0: 2013-03-25T15:52:33+0000 - 16.00 B
+        lucene.log.1: 2013-03-25T16:08:15+0000 - 16.00 B
+        lucene.log.active: 2013-03-25T16:08:15+0000 - 4.00 B
+      - Total: 2013-03-25T16:08:15+0000 - 76.00 B
+      neostore.relationshiptypestore.db: 2013-03-25T16:08:15+0000 - 0.00 B
+      nioneo_logical.log.v0: 2013-03-25T15:52:33+0000 - 718.00 B
+      neostore.propertystore.db: 2013-03-25T16:08:15+0000 - 82.00 B
+      neostore.propertystore.db.index.keys.id: 2013-03-25T16:08:15+0000 - 9.00 B
+      active_tx_log: 2013-03-25T15:43:15+0000 - 11.00 B
+      neostore.id: 2013-03-25T16:08:15+0000 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-03-25T16:08:15+0000 - 38.00 B
+      nioneo_logical.log.1: 2013-03-25T16:08:15+0000 - 16.00 B
+      neostore.propertystore.db.id: 2013-03-25T16:08:15+0000 - 9.00 B
+      neostore: 2013-03-25T16:08:15+0000 - 54.00 B
+      lock: 2013-03-25T16:08:15+0000 - 0.00 B
+      neostore.nodestore.db: 2013-03-25T16:08:15+0000 - 18.00 B
+      neostore.propertystore.db.strings: 2013-03-25T16:08:15+0000 - 640.00 B
+      neostore.relationshipstore.db: 2013-03-25T16:08:15+0000 - 33.00 B
+      neostore.propertystore.db.strings.id: 2013-03-25T16:08:15+0000 - 9.00 B
+      nioneo_logical.log.active: 2013-03-25T16:08:15+0000 - 4.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-03-25T16:08:15+0000 - 9.00 B
+      messages.log: 2013-03-25T16:08:15+0000 - 72.92 kB
+      neostore.relationshipstore.db.id: 2013-03-25T16:08:15+0000 - 9.00 B
+      neostore.propertystore.db.index.id: 2013-03-25T16:08:15+0000 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-03-25T16:08:15+0000 - 1.00 kB
+      tm_tx_log.1: 2013-03-25T16:08:15+0000 - 0.00 B
+      neostore.nodestore.db.id: 2013-03-25T16:08:15+0000 - 9.00 B
+      neostore.relationshiptypestore.db.id: 2013-03-25T16:08:15+0000 - 9.00 B
+      neostore.propertystore.db.index: 2013-03-25T16:08:15+0000 - 1.02 kB
+2013-03-25 16:08:15.432+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-03-25 16:08:15.433+0000: Started - database is now available
+2013-03-25 16:08:15.433+0000: GC Monitor started. 
+2013-03-25 16:08:30.652+0000: Stopping - database is now unavailable
+2013-03-25 16:08:30.654+0000: TM shutting down
+2013-03-25 16:08:30.654+0000: GC Monitor stopped. 
+2013-03-25 16:08:30.725+0000: Closed log /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log
+2013-03-25 16:08:30.891+0000: Closed log /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log
+2013-03-25 16:08:30.892+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:08:30.953+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:08:30.997+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:08:31.053+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys hit=2 miss=0 switches=0 ooe=0
+2013-03-25 16:08:31.120+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index hit=2 miss=0 switches=0 ooe=0
+2013-03-25 16:08:31.176+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:08:31.232+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:08:31.298+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:08:31.365+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:08:31.448+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore hit=0 miss=16 switches=0 ooe=0
+2013-03-25 16:08:31.510+0000: NeoStore closed
+2013-03-25 16:08:31.510+0000: --- SHUTDOWN diagnostics START ---
+2013-03-25 16:08:31.511+0000: --- SHUTDOWN diagnostics END ---
+2013-03-25 16:09:01.290+0000: WARNING! Deprecated configuration options used. See manual for details
+2013-03-25 16:09:01.306+0000: cannot configure writers and searchers individually since they go together
+2013-03-25 16:09:01.307+0000: WARNING! You are using an unsupported Java runtime. Please use JDK 6.
+2013-03-25 16:09:01.403+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-03-25 16:09:01.407+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-03-25 16:09:01.407+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings] brickCount=0 brickSize=275712b mappedMem=275775488b (storeSize=640b)
+2013-03-25 16:09:01.408+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=76b)
+2013-03-25 16:09:01.410+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index] brickCount=0 brickSize=1044b mappedMem=1048576b (storeSize=18b)
+2013-03-25 16:09:01.411+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays] brickCount=0 brickSize=312448b mappedMem=312475648b (storeSize=128b)
+2013-03-25 16:09:01.414+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db] brickCount=0 brickSize=323982b mappedMem=324009984b (storeSize=82b)
+2013-03-25 16:09:01.416+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db] brickCount=0 brickSize=396330b mappedMem=396361728b (storeSize=33b)
+2013-03-25 16:09:01.418+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db] brickCount=0 brickSize=89127b mappedMem=89128960b (storeSize=18b)
+2013-03-25 16:09:01.419+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-03-25 16:09:01.439+0000: Opened logical log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log.1] version=2, lastTxId=2 (clean)
+2013-03-25 16:09:01.482+0000: TM opening log: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/tm_tx_log.1
+2013-03-25 16:09:01.514+0000: Opened logical log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log.1] version=2, lastTxId=1 (clean)
+2013-03-25 16:09:01.530+0000: --- STARTUP diagnostics START ---
+2013-03-25 16:09:01.532+0000: Neo4j Kernel properties:
+    forced_kernel_id=
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    node_auto_indexing=false
+    intercept_committing_transactions=false
+    remote_shell_name=shell
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=true
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=298M
+    neostore.propertystore.db.strings.mapped_memory=263M
+    log_mapped_memory_stats_filename=mapped_memory_stats.log
+    log_mapped_memory_stats_interval=1000000
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    remote_shell_read_only=false
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    remote_logging_host=127.0.0.1
+    store_dir=target/neo4j-db
+    online_backup_enabled=false
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    array_block_size=120
+    load_kernel_extensions=true
+    neostore.relationshipstore.db.mapped_memory=378M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=85M
+    neo4j.ext.udc.first_delay=600000
+    remote_shell_enabled=false
+    neo4j.ext.udc.reg=unreg
+    remote_shell_port=1337
+    log_mapped_memory_stats=false
+    neo_store=neostore
+    mapped_memory_page_size=1M
+    query_cache_size=100
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=309M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    neo4j.ext.udc.enabled=true
+    all_stores_total_mapped_memory_size=500M
+    online_backup_port=6362
+2013-03-25 16:09:01.536+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    LINUX_SCHEDULERS
+    NETWORK
+2013-03-25 16:09:01.537+0000: System memory information:
+    Total Physical memory: 3.73 GB
+    Free Physical memory: 1.46 GB
+    Committed virtual memory: 2.10 GB
+    Total swap space: 0.00 B
+    Free swap space: 0.00 B
+2013-03-25 16:09:01.541+0000: JVM memory information:
+    Free  memory: 52.95 MB
+    Total memory: 57.31 MB
+    Max   memory: 849.81 MB
+    Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+    Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=487.94 kB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: PS Eden Space (Heap memory): committed=15.00 MB, used=1.20 MB, max=313.75 MB, threshold=?
+    Memory Pool: PS Survivor Space (Heap memory): committed=2.44 MB, used=2.41 MB, max=2.44 MB, threshold=?
+    Memory Pool: PS Old Gen (Heap memory): committed=39.88 MB, used=763.61 kB, max=637.38 MB, threshold=0.00 B
+    Memory Pool: PS Perm Gen (Non-heap memory): committed=20.75 MB, used=7.66 MB, max=166.00 MB, threshold=0.00 B
+2013-03-25 16:09:01.546+0000: Operating system information:
+    Operating System: Linux; version: 3.8.4-1-ARCH; arch: amd64; cpus: 4
+    Max number of file descriptors: 4096
+    Number of open file descriptors: 46
+    Process id: 31044@leviathan-lin
+    Byte order: LITTLE_ENDIAN
+    Local timezone: UTC
+2013-03-25 16:09:01.553+0000: JVM information:
+    VM Name: OpenJDK 64-Bit Server VM
+    VM Vendor: Oracle Corporation
+    VM Version: 23.7-b01
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-Dfile.encoding=UTF-8]
+2013-03-25 16:09:01.554+0000: Java classpath:
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/resources.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-lucene-index-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/plugin.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-cypher-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/scala-library-2.9.1-1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/charsets.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/zipfs.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunpkcs11.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-jmx-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/rt.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/classes
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-udc-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jsse.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/Eclipse/Calculator/src/
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-shell-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/sunrsasign.jar
+     [classpath + loader.0] file:/usr/share/java/bcel-5.2.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-kernel-1.8.1.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/dnsns.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jce.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-graph-algo-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunjce_provider.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/pulse-java.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/localedata.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-graph-matching-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jfr.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/netx.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/lucene-core-3.5.0.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/rhino.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/Eclipse/buganalyzer/bin/
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/server-api-1.8.1.jar
+2013-03-25 16:09:01.557+0000: Library path:
+    /usr/java/packages/lib/amd64
+    /usr/lib
+    /usr/lib
+    /usr/lib
+    /usr/lib
+2013-03-25 16:09:01.557+0000: System.properties:
+    sun.boot.library.path = /usr/lib/jvm/java-7-openjdk/jre/lib/amd64
+    path.separator = :
+    file.encoding.pkg = sun.io
+    user.country = US
+    sun.java.launcher = SUN_STANDARD
+    sun.os.patch.level = unknown
+    user.dir = /home/itwenty/Projects/Eclipse/buganalyzer
+    sun.jnu.encoding = UTF-8
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    user.home = /home/itwenty
+    user.timezone = UTC
+    file.encoding = UTF-8
+    user.name = itwenty
+    sun.java.command = org.j2t.buganalyzer.App
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = sun.awt.X11.XToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    sun.cpu.isalist = 
+2013-03-25 16:09:01.558+0000: Linux scheduler information:
+    noop deadline [cfq] 
+    noop deadline [cfq] 
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+2013-03-25 16:09:01.562+0000: Network information:
+    Interface eth0:
+        address: 172.16.40.10
+    Interface lo:
+        address: 127.0.0.1
+2013-03-25 16:09:01.567+0000: --- STARTUP diagnostics END ---
+2013-03-25 16:09:01.575+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-03-25 16:09:01.667+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-03-25 16:09:01.671+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-03-25 16:09:01.672+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2013-03-25 16:09:01.676+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-03-25 16:09:01.676+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1364226193996, id:7348971443519364127, store version: 13561656364791302]
+2013-03-25 16:09:01.676+0000: Kernel version: Neo4j - Graph Database Kernel 1.8.1
+2013-03-25 16:09:01.676+0000: Neo4j component versions:
+2013-03-25 16:09:01.677+0000:   Neo4j - Graph Database Kernel 1.8.1
+2013-03-25 16:09:01.677+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-03-25 16:09:01.679+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-03-25 16:09:01.680+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-03-25 16:09:01.680+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-03-25 16:09:01.680+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-03-25 16:09:01.680+0000: Id usage:
+    Id usage:
+      NodeStore: used=2 high=1
+      RelationshipStore: used=1 high=0
+      RelationshipTypeStore: used=0 high=-1
+      PropertyStore: used=2 high=1
+      PropertyIndexStore: used=2 high=1
+      StringPropertyStore: used=5 high=4
+      ArrayPropertyStore: used=1 high=0
+2013-03-25 16:09:01.681+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-03-25 16:09:01.681+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-03-25 16:09:01.681+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-03-25 16:09:01.682+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-03-25 16:09:01.682+0000: Disk space on partition (Total / Free / Free %): 233837043712 / 20817326080 / 91
+Storage files: (filename : modification date - size)
+      neostore.propertystore.db.arrays: 2013-03-25T16:09:01+0000 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-03-25T16:09:01+0000 - 9.00 B
+      index:
+        lucene-store.db: 2013-03-25T16:08:30+0000 - 40.00 B
+        lucene.log.v0: 2013-03-25T15:52:33+0000 - 16.00 B
+        lucene.log.1: 2013-03-25T16:09:01+0000 - 16.00 B
+        lucene.log.active: 2013-03-25T16:09:01+0000 - 4.00 B
+        lucene.log.v1: 2013-03-25T16:08:30+0000 - 16.00 B
+      - Total: 2013-03-25T16:09:01+0000 - 92.00 B
+      neostore.relationshiptypestore.db: 2013-03-25T16:09:01+0000 - 0.00 B
+      nioneo_logical.log.v0: 2013-03-25T15:52:33+0000 - 718.00 B
+      neostore.propertystore.db: 2013-03-25T16:09:01+0000 - 82.00 B
+      neostore.propertystore.db.index.keys.id: 2013-03-25T16:09:01+0000 - 9.00 B
+      active_tx_log: 2013-03-25T15:43:15+0000 - 11.00 B
+      neostore.id: 2013-03-25T16:09:01+0000 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-03-25T16:09:01+0000 - 38.00 B
+      nioneo_logical.log.1: 2013-03-25T16:09:01+0000 - 16.00 B
+      neostore.propertystore.db.id: 2013-03-25T16:09:01+0000 - 9.00 B
+      neostore: 2013-03-25T16:09:01+0000 - 54.00 B
+      lock: 2013-03-25T16:09:01+0000 - 0.00 B
+      neostore.nodestore.db: 2013-03-25T16:09:01+0000 - 18.00 B
+      neostore.propertystore.db.strings: 2013-03-25T16:09:01+0000 - 640.00 B
+      neostore.relationshipstore.db: 2013-03-25T16:09:01+0000 - 33.00 B
+      neostore.propertystore.db.strings.id: 2013-03-25T16:09:01+0000 - 9.00 B
+      nioneo_logical.log.active: 2013-03-25T16:09:01+0000 - 4.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-03-25T16:09:01+0000 - 9.00 B
+      messages.log: 2013-03-25T16:09:01+0000 - 90.04 kB
+      neostore.relationshipstore.db.id: 2013-03-25T16:09:01+0000 - 9.00 B
+      neostore.propertystore.db.index.id: 2013-03-25T16:09:01+0000 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-03-25T16:09:01+0000 - 1.00 kB
+      tm_tx_log.1: 2013-03-25T16:09:01+0000 - 0.00 B
+      neostore.nodestore.db.id: 2013-03-25T16:09:01+0000 - 9.00 B
+      neostore.relationshiptypestore.db.id: 2013-03-25T16:09:01+0000 - 9.00 B
+      nioneo_logical.log.v1: 2013-03-25T16:08:30+0000 - 16.00 B
+      neostore.propertystore.db.index: 2013-03-25T16:09:01+0000 - 1.02 kB
+2013-03-25 16:09:01.690+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-03-25 16:09:01.692+0000: Started - database is now available
+2013-03-25 16:09:01.692+0000: GC Monitor started. 
+2013-03-25 16:09:14.279+0000: Stopping - database is now unavailable
+2013-03-25 16:09:14.281+0000: TM shutting down
+2013-03-25 16:09:14.309+0000: GC Monitor stopped. 
+2013-03-25 16:09:14.339+0000: Closed log /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log
+2013-03-25 16:09:14.505+0000: Closed log /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log
+2013-03-25 16:09:14.506+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:09:14.607+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:09:14.669+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:09:14.725+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys hit=2 miss=0 switches=0 ooe=0
+2013-03-25 16:09:14.792+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index hit=2 miss=0 switches=0 ooe=0
+2013-03-25 16:09:14.858+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:09:14.914+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:09:14.981+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:09:15.048+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:09:15.129+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore hit=0 miss=16 switches=0 ooe=0
+2013-03-25 16:09:15.182+0000: NeoStore closed
+2013-03-25 16:09:15.182+0000: --- SHUTDOWN diagnostics START ---
+2013-03-25 16:09:15.182+0000: --- SHUTDOWN diagnostics END ---
+2013-03-25 16:13:54.938+0000: WARNING! Deprecated configuration options used. See manual for details
+2013-03-25 16:13:54.959+0000: cannot configure writers and searchers individually since they go together
+2013-03-25 16:13:54.961+0000: WARNING! You are using an unsupported Java runtime. Please use JDK 6.
+2013-03-25 16:13:55.057+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-03-25 16:13:55.061+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-03-25 16:13:55.061+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings] brickCount=0 brickSize=275712b mappedMem=275775488b (storeSize=640b)
+2013-03-25 16:13:55.062+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=76b)
+2013-03-25 16:13:55.063+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index] brickCount=0 brickSize=1044b mappedMem=1048576b (storeSize=18b)
+2013-03-25 16:13:55.064+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays] brickCount=0 brickSize=312448b mappedMem=312475648b (storeSize=128b)
+2013-03-25 16:13:55.068+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db] brickCount=0 brickSize=323982b mappedMem=324009984b (storeSize=82b)
+2013-03-25 16:13:55.072+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db] brickCount=0 brickSize=396330b mappedMem=396361728b (storeSize=33b)
+2013-03-25 16:13:55.075+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db] brickCount=0 brickSize=89127b mappedMem=89128960b (storeSize=18b)
+2013-03-25 16:13:55.076+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-03-25 16:13:55.098+0000: Opened logical log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log.1] version=3, lastTxId=2 (clean)
+2013-03-25 16:13:55.134+0000: TM opening log: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/tm_tx_log.1
+2013-03-25 16:13:55.165+0000: Opened logical log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log.1] version=3, lastTxId=1 (clean)
+2013-03-25 16:13:55.181+0000: --- STARTUP diagnostics START ---
+2013-03-25 16:13:55.183+0000: Neo4j Kernel properties:
+    forced_kernel_id=
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    node_auto_indexing=false
+    intercept_committing_transactions=false
+    remote_shell_name=shell
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=true
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=298M
+    neostore.propertystore.db.strings.mapped_memory=263M
+    log_mapped_memory_stats_filename=mapped_memory_stats.log
+    log_mapped_memory_stats_interval=1000000
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    remote_shell_read_only=false
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    remote_logging_host=127.0.0.1
+    store_dir=target/neo4j-db
+    online_backup_enabled=false
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    array_block_size=120
+    load_kernel_extensions=true
+    neostore.relationshipstore.db.mapped_memory=378M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=85M
+    neo4j.ext.udc.first_delay=600000
+    remote_shell_enabled=false
+    neo4j.ext.udc.reg=unreg
+    remote_shell_port=1337
+    log_mapped_memory_stats=false
+    neo_store=neostore
+    mapped_memory_page_size=1M
+    query_cache_size=100
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=309M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    neo4j.ext.udc.enabled=true
+    all_stores_total_mapped_memory_size=500M
+    online_backup_port=6362
+2013-03-25 16:13:55.187+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    LINUX_SCHEDULERS
+    NETWORK
+2013-03-25 16:13:55.188+0000: System memory information:
+    Total Physical memory: 3.73 GB
+    Free Physical memory: 1.47 GB
+    Committed virtual memory: 2.10 GB
+    Total swap space: 0.00 B
+    Free swap space: 0.00 B
+2013-03-25 16:13:55.193+0000: JVM memory information:
+    Free  memory: 52.92 MB
+    Total memory: 57.31 MB
+    Max   memory: 849.81 MB
+    Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+    Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=488.13 kB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: PS Eden Space (Heap memory): committed=15.00 MB, used=1.20 MB, max=313.75 MB, threshold=?
+    Memory Pool: PS Survivor Space (Heap memory): committed=2.44 MB, used=2.41 MB, max=2.44 MB, threshold=?
+    Memory Pool: PS Old Gen (Heap memory): committed=39.88 MB, used=795.43 kB, max=637.38 MB, threshold=0.00 B
+    Memory Pool: PS Perm Gen (Non-heap memory): committed=20.75 MB, used=7.66 MB, max=166.00 MB, threshold=0.00 B
+2013-03-25 16:13:55.198+0000: Operating system information:
+    Operating System: Linux; version: 3.8.4-1-ARCH; arch: amd64; cpus: 4
+    Max number of file descriptors: 4096
+    Number of open file descriptors: 46
+    Process id: 31131@leviathan-lin
+    Byte order: LITTLE_ENDIAN
+    Local timezone: UTC
+2013-03-25 16:13:55.204+0000: JVM information:
+    VM Name: OpenJDK 64-Bit Server VM
+    VM Vendor: Oracle Corporation
+    VM Version: 23.7-b01
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-Dfile.encoding=UTF-8]
+2013-03-25 16:13:55.205+0000: Java classpath:
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/resources.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-lucene-index-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/plugin.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-cypher-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/scala-library-2.9.1-1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/charsets.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/zipfs.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunpkcs11.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-jmx-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/rt.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/classes
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-udc-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jsse.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/Eclipse/Calculator/src/
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-shell-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/sunrsasign.jar
+     [classpath + loader.0] file:/usr/share/java/bcel-5.2.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-kernel-1.8.1.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/dnsns.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jce.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-graph-algo-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunjce_provider.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/pulse-java.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/localedata.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-graph-matching-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jfr.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/netx.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/lucene-core-3.5.0.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/rhino.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/Eclipse/buganalyzer/bin/
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/server-api-1.8.1.jar
+2013-03-25 16:13:55.207+0000: Library path:
+    /usr/java/packages/lib/amd64
+    /usr/lib
+    /usr/lib
+    /usr/lib
+    /usr/lib
+2013-03-25 16:13:55.207+0000: System.properties:
+    sun.boot.library.path = /usr/lib/jvm/java-7-openjdk/jre/lib/amd64
+    path.separator = :
+    file.encoding.pkg = sun.io
+    user.country = US
+    sun.java.launcher = SUN_STANDARD
+    sun.os.patch.level = unknown
+    user.dir = /home/itwenty/Projects/Eclipse/buganalyzer
+    sun.jnu.encoding = UTF-8
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    user.home = /home/itwenty
+    user.timezone = UTC
+    file.encoding = UTF-8
+    user.name = itwenty
+    sun.java.command = org.j2t.buganalyzer.App
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = sun.awt.X11.XToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    sun.cpu.isalist = 
+2013-03-25 16:13:55.208+0000: Linux scheduler information:
+    noop deadline [cfq] 
+    noop deadline [cfq] 
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+2013-03-25 16:13:55.211+0000: Network information:
+    Interface eth0:
+        address: 172.16.40.10
+    Interface lo:
+        address: 127.0.0.1
+2013-03-25 16:13:55.214+0000: --- STARTUP diagnostics END ---
+2013-03-25 16:13:55.220+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-03-25 16:13:55.314+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-03-25 16:13:55.318+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-03-25 16:13:55.319+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2013-03-25 16:13:55.322+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-03-25 16:13:55.322+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1364226193996, id:7348971443519364127, store version: 13561656364791302]
+2013-03-25 16:13:55.322+0000: Kernel version: Neo4j - Graph Database Kernel 1.8.1
+2013-03-25 16:13:55.322+0000: Neo4j component versions:
+2013-03-25 16:13:55.323+0000:   Neo4j - Graph Database Kernel 1.8.1
+2013-03-25 16:13:55.323+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-03-25 16:13:55.326+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-03-25 16:13:55.326+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-03-25 16:13:55.326+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-03-25 16:13:55.327+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-03-25 16:13:55.327+0000: Id usage:
+    Id usage:
+      NodeStore: used=2 high=1
+      RelationshipStore: used=1 high=0
+      RelationshipTypeStore: used=0 high=-1
+      PropertyStore: used=2 high=1
+      PropertyIndexStore: used=2 high=1
+      StringPropertyStore: used=5 high=4
+      ArrayPropertyStore: used=1 high=0
+2013-03-25 16:13:55.327+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-03-25 16:13:55.328+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-03-25 16:13:55.328+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-03-25 16:13:55.328+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-03-25 16:13:55.328+0000: Disk space on partition (Total / Free / Free %): 233837043712 / 20816887808 / 91
+Storage files: (filename : modification date - size)
+      nioneo_logical.log.v2: 2013-03-25T16:09:14+0000 - 16.00 B
+      neostore.propertystore.db.arrays: 2013-03-25T16:13:55+0000 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-03-25T16:13:55+0000 - 9.00 B
+      index:
+        lucene-store.db: 2013-03-25T16:09:14+0000 - 40.00 B
+        lucene.log.v0: 2013-03-25T15:52:33+0000 - 16.00 B
+        lucene.log.v2: 2013-03-25T16:09:14+0000 - 16.00 B
+        lucene.log.1: 2013-03-25T16:13:55+0000 - 16.00 B
+        lucene.log.active: 2013-03-25T16:13:55+0000 - 4.00 B
+        lucene.log.v1: 2013-03-25T16:08:30+0000 - 16.00 B
+      - Total: 2013-03-25T16:13:55+0000 - 108.00 B
+      neostore.relationshiptypestore.db: 2013-03-25T16:13:55+0000 - 0.00 B
+      nioneo_logical.log.v0: 2013-03-25T15:52:33+0000 - 718.00 B
+      neostore.propertystore.db: 2013-03-25T16:13:55+0000 - 82.00 B
+      neostore.propertystore.db.index.keys.id: 2013-03-25T16:13:55+0000 - 9.00 B
+      active_tx_log: 2013-03-25T15:43:15+0000 - 11.00 B
+      neostore.id: 2013-03-25T16:13:55+0000 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-03-25T16:13:55+0000 - 38.00 B
+      nioneo_logical.log.1: 2013-03-25T16:13:55+0000 - 16.00 B
+      neostore.propertystore.db.id: 2013-03-25T16:13:55+0000 - 9.00 B
+      neostore: 2013-03-25T16:13:55+0000 - 54.00 B
+      lock: 2013-03-25T16:13:55+0000 - 0.00 B
+      neostore.nodestore.db: 2013-03-25T16:13:55+0000 - 18.00 B
+      neostore.propertystore.db.strings: 2013-03-25T16:13:55+0000 - 640.00 B
+      neostore.relationshipstore.db: 2013-03-25T16:13:55+0000 - 33.00 B
+      neostore.propertystore.db.strings.id: 2013-03-25T16:13:55+0000 - 9.00 B
+      nioneo_logical.log.active: 2013-03-25T16:13:55+0000 - 4.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-03-25T16:13:55+0000 - 9.00 B
+      messages.log: 2013-03-25T16:13:55+0000 - 107.27 kB
+      neostore.relationshipstore.db.id: 2013-03-25T16:13:55+0000 - 9.00 B
+      neostore.propertystore.db.index.id: 2013-03-25T16:13:55+0000 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-03-25T16:13:55+0000 - 1.00 kB
+      tm_tx_log.1: 2013-03-25T16:13:55+0000 - 0.00 B
+      neostore.nodestore.db.id: 2013-03-25T16:13:55+0000 - 9.00 B
+      neostore.relationshiptypestore.db.id: 2013-03-25T16:13:55+0000 - 9.00 B
+      nioneo_logical.log.v1: 2013-03-25T16:08:30+0000 - 16.00 B
+      neostore.propertystore.db.index: 2013-03-25T16:13:55+0000 - 1.02 kB
+2013-03-25 16:13:55.337+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-03-25 16:13:55.339+0000: Started - database is now available
+2013-03-25 16:13:55.339+0000: GC Monitor started. 
+2013-03-25 16:14:06.981+0000: Stopping - database is now unavailable
+2013-03-25 16:14:06.982+0000: TM shutting down
+2013-03-25 16:14:07.055+0000: GC Monitor stopped. 
+2013-03-25 16:14:07.368+0000: Closed log /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log
+2013-03-25 16:14:07.534+0000: Closed log /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log
+2013-03-25 16:14:07.534+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:14:07.595+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:14:07.653+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:14:07.709+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys hit=2 miss=0 switches=0 ooe=0
+2013-03-25 16:14:07.776+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index hit=2 miss=0 switches=0 ooe=0
+2013-03-25 16:14:07.842+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:14:07.898+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:14:07.965+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:14:08.032+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:14:08.113+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore hit=0 miss=16 switches=0 ooe=0
+2013-03-25 16:14:08.166+0000: NeoStore closed
+2013-03-25 16:14:08.166+0000: --- SHUTDOWN diagnostics START ---
+2013-03-25 16:14:08.166+0000: --- SHUTDOWN diagnostics END ---
+2013-03-25 16:23:11.064+0000: WARNING! Deprecated configuration options used. See manual for details
+2013-03-25 16:23:11.080+0000: cannot configure writers and searchers individually since they go together
+2013-03-25 16:23:11.081+0000: WARNING! You are using an unsupported Java runtime. Please use JDK 6.
+2013-03-25 16:23:11.179+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-03-25 16:23:11.182+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-03-25 16:23:11.183+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings] brickCount=0 brickSize=275712b mappedMem=275775488b (storeSize=640b)
+2013-03-25 16:23:11.183+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=76b)
+2013-03-25 16:23:11.185+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index] brickCount=0 brickSize=1044b mappedMem=1048576b (storeSize=18b)
+2013-03-25 16:23:11.186+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays] brickCount=0 brickSize=312448b mappedMem=312475648b (storeSize=128b)
+2013-03-25 16:23:11.188+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db] brickCount=0 brickSize=323982b mappedMem=324009984b (storeSize=82b)
+2013-03-25 16:23:11.190+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db] brickCount=0 brickSize=396330b mappedMem=396361728b (storeSize=33b)
+2013-03-25 16:23:11.192+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db] brickCount=0 brickSize=89127b mappedMem=89128960b (storeSize=18b)
+2013-03-25 16:23:11.193+0000: [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-03-25 16:23:11.213+0000: Opened logical log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log.1] version=4, lastTxId=2 (clean)
+2013-03-25 16:23:11.613+0000: TM opening log: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/tm_tx_log.1
+2013-03-25 16:23:11.644+0000: Opened logical log [/home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log.1] version=4, lastTxId=1 (clean)
+2013-03-25 16:23:11.661+0000: --- STARTUP diagnostics START ---
+2013-03-25 16:23:11.662+0000: Neo4j Kernel properties:
+    forced_kernel_id=
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    node_auto_indexing=false
+    intercept_committing_transactions=false
+    remote_shell_name=shell
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=true
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=298M
+    neostore.propertystore.db.strings.mapped_memory=263M
+    log_mapped_memory_stats_filename=mapped_memory_stats.log
+    log_mapped_memory_stats_interval=1000000
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    remote_shell_read_only=false
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    remote_logging_host=127.0.0.1
+    store_dir=target/neo4j-db
+    online_backup_enabled=false
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    array_block_size=120
+    load_kernel_extensions=true
+    neostore.relationshipstore.db.mapped_memory=378M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=85M
+    neo4j.ext.udc.first_delay=600000
+    remote_shell_enabled=false
+    neo4j.ext.udc.reg=unreg
+    remote_shell_port=1337
+    log_mapped_memory_stats=false
+    neo_store=neostore
+    mapped_memory_page_size=1M
+    query_cache_size=100
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=309M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    neo4j.ext.udc.enabled=true
+    all_stores_total_mapped_memory_size=500M
+    online_backup_port=6362
+2013-03-25 16:23:11.667+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    LINUX_SCHEDULERS
+    NETWORK
+2013-03-25 16:23:11.668+0000: System memory information:
+    Total Physical memory: 3.73 GB
+    Free Physical memory: 1.47 GB
+    Committed virtual memory: 2.10 GB
+    Total swap space: 0.00 B
+    Free swap space: 0.00 B
+2013-03-25 16:23:11.672+0000: JVM memory information:
+    Free  memory: 52.99 MB
+    Total memory: 57.31 MB
+    Max   memory: 849.81 MB
+    Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+    Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=488.13 kB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: PS Eden Space (Heap memory): committed=15.00 MB, used=1.20 MB, max=313.75 MB, threshold=?
+    Memory Pool: PS Survivor Space (Heap memory): committed=2.44 MB, used=2.41 MB, max=2.44 MB, threshold=?
+    Memory Pool: PS Old Gen (Heap memory): committed=39.88 MB, used=730.84 kB, max=637.38 MB, threshold=0.00 B
+    Memory Pool: PS Perm Gen (Non-heap memory): committed=20.75 MB, used=7.66 MB, max=166.00 MB, threshold=0.00 B
+2013-03-25 16:23:11.677+0000: Operating system information:
+    Operating System: Linux; version: 3.8.4-1-ARCH; arch: amd64; cpus: 4
+    Max number of file descriptors: 4096
+    Number of open file descriptors: 46
+    Process id: 31269@leviathan-lin
+    Byte order: LITTLE_ENDIAN
+    Local timezone: UTC
+2013-03-25 16:23:11.684+0000: JVM information:
+    VM Name: OpenJDK 64-Bit Server VM
+    VM Vendor: Oracle Corporation
+    VM Version: 23.7-b01
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-Dfile.encoding=UTF-8]
+2013-03-25 16:23:11.684+0000: Java classpath:
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/resources.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-lucene-index-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/plugin.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-cypher-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/scala-library-2.9.1-1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/charsets.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/zipfs.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunpkcs11.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-jmx-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/rt.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/classes
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-udc-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jsse.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/Eclipse/Calculator/src/
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-shell-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/sunrsasign.jar
+     [classpath + loader.0] file:/usr/share/java/bcel-5.2.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-kernel-1.8.1.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/dnsns.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jce.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-graph-algo-1.8.1.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/sunjce_provider.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/pulse-java.jar
+     [loader.1] file:/usr/lib/jvm/java-7-openjdk/jre/lib/ext/localedata.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/neo4j-graph-matching-1.8.1.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/jfr.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/netx.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/lucene-core-3.5.0.jar
+     [bootstrap] /usr/lib/jvm/java-7-openjdk/jre/lib/rhino.jar
+     [classpath + loader.0] file:/home/itwenty/Projects/Eclipse/buganalyzer/bin/
+     [classpath + loader.0] file:/home/itwenty/Projects/neo4j-community-1.8.1/lib/server-api-1.8.1.jar
+2013-03-25 16:23:11.686+0000: Library path:
+    /usr/java/packages/lib/amd64
+    /usr/lib
+    /usr/lib
+    /usr/lib
+    /usr/lib
+2013-03-25 16:23:11.687+0000: System.properties:
+    sun.boot.library.path = /usr/lib/jvm/java-7-openjdk/jre/lib/amd64
+    path.separator = :
+    file.encoding.pkg = sun.io
+    user.country = US
+    sun.java.launcher = SUN_STANDARD
+    sun.os.patch.level = unknown
+    user.dir = /home/itwenty/Projects/Eclipse/buganalyzer
+    sun.jnu.encoding = UTF-8
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    user.home = /home/itwenty
+    user.timezone = UTC
+    file.encoding = UTF-8
+    user.name = itwenty
+    sun.java.command = org.j2t.buganalyzer.App
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = sun.awt.X11.XToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    sun.cpu.isalist = 
+2013-03-25 16:23:11.687+0000: Linux scheduler information:
+    noop deadline [cfq] 
+    noop deadline [cfq] 
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+2013-03-25 16:23:11.690+0000: Network information:
+    Interface eth0:
+        address: 172.16.40.10
+    Interface lo:
+        address: 127.0.0.1
+2013-03-25 16:23:11.692+0000: --- STARTUP diagnostics END ---
+2013-03-25 16:23:11.696+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-03-25 16:23:11.790+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-03-25 16:23:11.795+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-03-25 16:23:11.796+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2013-03-25 16:23:11.799+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-03-25 16:23:11.799+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1364226193996, id:7348971443519364127, store version: 13561656364791302]
+2013-03-25 16:23:11.800+0000: Kernel version: Neo4j - Graph Database Kernel 1.8.1
+2013-03-25 16:23:11.800+0000: Neo4j component versions:
+2013-03-25 16:23:11.801+0000:   Neo4j - Graph Database Kernel 1.8.1
+2013-03-25 16:23:11.801+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-03-25 16:23:11.804+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-03-25 16:23:11.804+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-03-25 16:23:11.804+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-03-25 16:23:11.804+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-03-25 16:23:11.804+0000: Id usage:
+    Id usage:
+      NodeStore: used=2 high=1
+      RelationshipStore: used=1 high=0
+      RelationshipTypeStore: used=0 high=-1
+      PropertyStore: used=2 high=1
+      PropertyIndexStore: used=2 high=1
+      StringPropertyStore: used=5 high=4
+      ArrayPropertyStore: used=1 high=0
+2013-03-25 16:23:11.806+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-03-25 16:23:11.806+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-03-25 16:23:11.806+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-03-25 16:23:11.806+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-03-25 16:23:11.806+0000: Disk space on partition (Total / Free / Free %): 233837043712 / 20816596992 / 91
+Storage files: (filename : modification date - size)
+      nioneo_logical.log.v2: 2013-03-25T16:09:14+0000 - 16.00 B
+      neostore.propertystore.db.arrays: 2013-03-25T16:23:11+0000 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-03-25T16:23:11+0000 - 9.00 B
+      index:
+        lucene-store.db: 2013-03-25T16:14:07+0000 - 40.00 B
+        lucene.log.v0: 2013-03-25T15:52:33+0000 - 16.00 B
+        lucene.log.v3: 2013-03-25T16:14:07+0000 - 16.00 B
+        lucene.log.v2: 2013-03-25T16:09:14+0000 - 16.00 B
+        lucene.log.1: 2013-03-25T16:23:11+0000 - 16.00 B
+        lucene.log.active: 2013-03-25T16:23:11+0000 - 4.00 B
+        lucene.log.v1: 2013-03-25T16:08:30+0000 - 16.00 B
+      - Total: 2013-03-25T16:23:11+0000 - 124.00 B
+      neostore.relationshiptypestore.db: 2013-03-25T16:23:11+0000 - 0.00 B
+      nioneo_logical.log.v0: 2013-03-25T15:52:33+0000 - 718.00 B
+      neostore.propertystore.db: 2013-03-25T16:23:11+0000 - 82.00 B
+      neostore.propertystore.db.index.keys.id: 2013-03-25T16:23:11+0000 - 9.00 B
+      nioneo_logical.log.v3: 2013-03-25T16:14:07+0000 - 16.00 B
+      active_tx_log: 2013-03-25T15:43:15+0000 - 11.00 B
+      neostore.id: 2013-03-25T16:23:11+0000 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-03-25T16:23:11+0000 - 38.00 B
+      nioneo_logical.log.1: 2013-03-25T16:23:11+0000 - 16.00 B
+      neostore.propertystore.db.id: 2013-03-25T16:23:11+0000 - 9.00 B
+      neostore: 2013-03-25T16:23:11+0000 - 54.00 B
+      lock: 2013-03-25T16:23:11+0000 - 0.00 B
+      neostore.nodestore.db: 2013-03-25T16:23:11+0000 - 18.00 B
+      neostore.propertystore.db.strings: 2013-03-25T16:23:11+0000 - 640.00 B
+      neostore.relationshipstore.db: 2013-03-25T16:23:11+0000 - 33.00 B
+      neostore.propertystore.db.strings.id: 2013-03-25T16:23:11+0000 - 9.00 B
+      nioneo_logical.log.active: 2013-03-25T16:23:11+0000 - 4.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-03-25T16:23:11+0000 - 9.00 B
+      messages.log: 2013-03-25T16:23:11+0000 - 124.63 kB
+      neostore.relationshipstore.db.id: 2013-03-25T16:23:11+0000 - 9.00 B
+      neostore.propertystore.db.index.id: 2013-03-25T16:23:11+0000 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-03-25T16:23:11+0000 - 1.00 kB
+      tm_tx_log.1: 2013-03-25T16:23:11+0000 - 0.00 B
+      neostore.nodestore.db.id: 2013-03-25T16:23:11+0000 - 9.00 B
+      neostore.relationshiptypestore.db.id: 2013-03-25T16:23:11+0000 - 9.00 B
+      nioneo_logical.log.v1: 2013-03-25T16:08:30+0000 - 16.00 B
+      neostore.propertystore.db.index: 2013-03-25T16:23:11+0000 - 1.02 kB
+2013-03-25 16:23:11.818+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-03-25 16:23:11.819+0000: Started - database is now available
+2013-03-25 16:23:11.820+0000: GC Monitor started. 
+2013-03-25 16:23:23.615+0000: Stopping - database is now unavailable
+2013-03-25 16:23:23.635+0000: GC Monitor stopped. 
+2013-03-25 16:23:23.655+0000: TM shutting down
+2013-03-25 16:23:23.713+0000: Closed log /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/index/lucene.log
+2013-03-25 16:23:23.880+0000: Closed log /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/nioneo_logical.log
+2013-03-25 16:23:23.880+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:23:23.940+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:23:23.996+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.strings hit=4 miss=0 switches=0 ooe=0
+2013-03-25 16:23:24.052+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index.keys hit=2 miss=0 switches=0 ooe=0
+2013-03-25 16:23:24.119+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.index hit=2 miss=0 switches=0 ooe=0
+2013-03-25 16:23:24.174+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:23:24.230+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.propertystore.db hit=1 miss=0 switches=0 ooe=0
+2013-03-25 16:23:24.297+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-25 16:23:24.364+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore.nodestore.db hit=1 miss=0 switches=0 ooe=0
+2013-03-25 16:23:24.448+0000: /home/itwenty/Projects/Eclipse/buganalyzer/target/neo4j-db/neostore hit=0 miss=17 switches=0 ooe=0
+2013-03-25 16:23:24.509+0000: NeoStore closed
+2013-03-25 16:23:24.509+0000: --- SHUTDOWN diagnostics START ---
+2013-03-25 16:23:24.509+0000: --- SHUTDOWN diagnostics END ---
