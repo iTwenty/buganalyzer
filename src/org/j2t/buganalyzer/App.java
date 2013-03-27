@@ -1,7 +1,6 @@
 package org.j2t.buganalyzer;
 
 import java.io.IOException;
-import java.util.Scanner;
 
 import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.kernel.EmbeddedGraphDatabase;
@@ -28,17 +27,22 @@ public class App
     {
         String projectPath;
         registerShutdownHook( gds );
-        Scanner sc = new Scanner( System.in );
-        System.out.println( "Enter path to sample project" );
-        projectPath = sc.nextLine( );
-        sc.close( );
+        //Scanner sc = new Scanner( System.in );
+        //System.out.println( "Enter path to sample project" );
+        projectPath = "c:/HelloWorld.jar";
+        //sc.close( );
         System.out.println( "Project Path:\t" + projectPath );
         SampleProjectRunner spr = new SampleProjectRunner( projectPath );
         spr.runProject( );
         if( spr.getError( ) != null )
         {
-            Bug b = new Bug( spr.getError( ) );
-            System.out.println( b.getTitle( ) );
+            Bug[] b = BugAnalyzerHelper.createBugsFromError( spr.getError( ) );
+            for( Bug a : b  )
+            {
+                System.out.println( a.getTitle( ) );
+                System.out.println( a.getDetails( ) );
+                System.out.println( a.getLocation( ) );
+            }
         }
         gds.shutdown( );
     }
