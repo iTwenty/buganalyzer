@@ -21,6 +21,7 @@ public class BugAnalyzerHelper
     public static Bug[] createBugsFromError( String error )
     {
         String[] errorLines = removeEmptyLines( error.split( "\r?\n" ) );
+        // variable denoting the no. of bugs found by counting lines not  beginning with tab.
         int count = 0;
         for( String s : errorLines )
         {

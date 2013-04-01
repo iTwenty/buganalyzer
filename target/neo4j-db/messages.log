@@ -30677,3 +30677,1329 @@ Storage files: (filename : modification date - size)
 2013-04-01 11:14:28.406+0000: NeoStore closed
 2013-04-01 11:14:28.406+0000: --- SHUTDOWN diagnostics START ---
 2013-04-01 11:14:28.406+0000: --- SHUTDOWN diagnostics END ---
+2013-04-01 11:23:24.656+0000: WARNING! Deprecated configuration options used. See manual for details
+2013-04-01 11:23:24.671+0000: cannot configure writers and searchers individually since they go together
+2013-04-01 11:23:24.671+0000: WARNING! You are using an unsupported version of the JDK. Please use JDK 6.
+2013-04-01 11:23:24.734+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-04-01 11:23:24.750+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-04-01 11:23:24.750+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.strings] brickCount=1 brickSize=12544b mappedMem=12582912b (storeSize=18176b)
+2013-04-01 11:23:24.750+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=152b)
+2013-04-01 11:23:24.750+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.index] brickCount=0 brickSize=1044b mappedMem=1048576b (storeSize=36b)
+2013-04-01 11:23:24.750+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.arrays] brickCount=0 brickSize=14592b mappedMem=14680064b (storeSize=128b)
+2013-04-01 11:23:24.750+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db] brickCount=0 brickSize=15703b mappedMem=15728640b (storeSize=4920b)
+2013-04-01 11:23:24.750+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshipstore.db] brickCount=0 brickSize=18843b mappedMem=18874368b (storeSize=33b)
+2013-04-01 11:23:24.750+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.nodestore.db] brickCount=0 brickSize=4194b mappedMem=4194304b (storeSize=1089b)
+2013-04-01 11:23:24.750+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-04-01 11:23:24.765+0000: Opened logical log [C:\eclipse\workspace\buganalyzer\target\neo4j-db\nioneo_logical.log.1] version=79, lastTxId=255 (clean)
+2013-04-01 11:23:24.796+0000: TM opening log: C:\eclipse\workspace\buganalyzer\target\neo4j-db\tm_tx_log.1
+2013-04-01 11:23:24.812+0000: Opened logical log [C:\eclipse\workspace\buganalyzer\target\neo4j-db\index\lucene.log.1] version=79, lastTxId=1 (clean)
+2013-04-01 11:23:24.843+0000: --- STARTUP diagnostics START ---
+2013-04-01 11:23:24.843+0000: Neo4j Kernel properties:
+    forced_kernel_id=
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    node_auto_indexing=false
+    intercept_committing_transactions=false
+    remote_shell_name=shell
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=false
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=14M
+    neostore.propertystore.db.strings.mapped_memory=12M
+    log_mapped_memory_stats_filename=mapped_memory_stats.log
+    log_mapped_memory_stats_interval=1000000
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    remote_shell_read_only=false
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    remote_logging_host=127.0.0.1
+    store_dir=target/neo4j-db
+    online_backup_enabled=false
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    array_block_size=120
+    load_kernel_extensions=true
+    neostore.relationshipstore.db.mapped_memory=18M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=4M
+    neo4j.ext.udc.first_delay=600000
+    remote_shell_enabled=false
+    neo4j.ext.udc.reg=unreg
+    remote_shell_port=1337
+    log_mapped_memory_stats=false
+    neo_store=neostore
+    mapped_memory_page_size=1M
+    query_cache_size=100
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=15M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    neo4j.ext.udc.enabled=true
+    all_stores_total_mapped_memory_size=500M
+    online_backup_port=6362
+2013-04-01 11:23:24.843+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    NETWORK
+2013-04-01 11:23:24.843+0000: System memory information:
+    Total Physical memory: 2.00 GB
+    Free Physical memory: 1.86 GB
+    Committed virtual memory: 37.48 MB
+    Total swap space: 4.00 GB
+    Free swap space: 3.88 GB
+2013-04-01 11:23:24.843+0000: JVM memory information:
+    Free  memory: 12.72 MB
+    Total memory: 15.50 MB
+    Max   memory: 247.50 MB
+    Garbage Collector: Copy: [Eden Space, Survivor Space]
+    Garbage Collector: MarkSweepCompact: [Eden Space, Survivor Space, Tenured Gen, Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=864.00 kB, used=849.88 kB, max=32.00 MB, threshold=0.00 B
+    Memory Pool: Eden Space (Heap memory): committed=4.31 MB, used=82.52 kB, max=68.31 MB, threshold=?
+    Memory Pool: Survivor Space (Heap memory): committed=512.00 kB, used=512.00 kB, max=8.50 MB, threshold=?
+    Memory Pool: Tenured Gen (Heap memory): committed=10.69 MB, used=2.20 MB, max=170.69 MB, threshold=0.00 B
+    Memory Pool: Perm Gen (Non-heap memory): committed=12.00 MB, used=4.65 MB, max=64.00 MB, threshold=0.00 B
+2013-04-01 11:23:24.859+0000: Operating system information:
+    Operating System: Windows XP; version: 5.1; arch: x86; cpus: 4
+    Process id: 812@Tejaswi_Comp
+    Byte order: LITTLE_ENDIAN
+    Local timezone: Asia/Calcutta
+2013-04-01 11:23:24.859+0000: JVM information:
+    VM Name: Java HotSpot(TM) Client VM
+    VM Vendor: Oracle Corporation
+    VM Version: 23.6-b04
+    JIT compiler: HotSpot Client Compiler
+    VM Arguments: [-Dfile.encoding=Cp1252]
+2013-04-01 11:23:24.859+0000: Java classpath:
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/localedata.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\sunrsasign.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/server-api-1.8.1.jar
+     [classpath + loader.0] file:/C:/eclipse/workspace/buganalyzer/bin/
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\charsets.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\classes
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/geronimo-jta_1.1_spec-1.1.1.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-graph-matching-1.8.1.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/sunec.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\jsse.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/zipfs.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\jce.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-lucene-index-1.8.1.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\resources.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\jfr.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-shell-1.8.1.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/scala-library-2.9.1-1.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/sunmscapi.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-jmx-1.8.1.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-cypher-1.8.1.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-graph-algo-1.8.1.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\rt.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-udc-1.8.1.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/sunpkcs11.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/jaccess.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-kernel-1.8.1.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/lucene-core-3.5.0.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/dnsns.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/access-bridge.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/sunjce_provider.jar
+2013-04-01 11:23:24.875+0000: Library path:
+    C:\Program Files\Java\jdk1.7.0_11\jre\bin
+    C:\WINDOWS\Sun\Java\bin
+    C:\WINDOWS\system32
+    C:\WINDOWS
+    C:\Program Files\Java\jre7\bin\client
+    C:\Program Files\Java\jre7\bin
+    C:\Program Files\Java\jre7\lib\i386
+    C:\WINDOWS\system32
+    C:\WINDOWS
+    C:\WINDOWS\system32\wbem
+    C:\Program Files\Java\jdk1.7.0_15\bin
+    C:\Program Files\MiKTeX 2.9\miktex\bin
+    C:\eclipse
+    C:\eclipse\workspace\buganalyzer
+    C:\eclipse\workspace\buganalyzer
+2013-04-01 11:23:24.875+0000: System.properties:
+    sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_11\jre\bin
+    path.separator = ;
+    file.encoding.pkg = sun.io
+    user.country = US
+    user.script = 
+    sun.java.launcher = SUN_STANDARD
+    sun.os.patch.level = Service Pack 3
+    user.dir = C:\eclipse\workspace\buganalyzer
+    user.variant = 
+    sun.jnu.encoding = Cp1252
+    sun.management.compiler = HotSpot Client Compiler
+    user.home = C:\Documents and Settings\J2T
+    user.timezone = Asia/Calcutta
+    file.encoding = Cp1252
+    user.name = J2T
+    sun.java.command = org.j2t.buganalyzer.App
+    sun.arch.data.model = 32
+    user.language = en
+    awt.toolkit = sun.awt.windows.WToolkit
+    file.separator = \
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    sun.desktop = windows
+    sun.cpu.isalist = pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+2013-04-01 11:23:24.875+0000: Network information:
+    Interface MS TCP Loopback interface:
+        address: 127.0.0.1
+    Interface Realtek PCIe GBE Family Controller - Teefer2 Miniport:
+        address: 172.16.40.6
+2013-04-01 11:23:24.875+0000: --- STARTUP diagnostics END ---
+2013-04-01 11:23:24.875+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-04-01 11:23:24.937+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-04-01 11:23:24.937+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-04-01 11:23:24.937+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2013-04-01 11:23:24.937+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-04-01 11:23:24.937+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1364226193996, id:7348971443519364127, store version: 13561656364791302]
+2013-04-01 11:23:24.937+0000: Kernel version: Neo4j - Graph Database Kernel 1.8.1
+2013-04-01 11:23:24.937+0000: Neo4j component versions:
+2013-04-01 11:23:24.937+0000:   Neo4j - Graph Database Kernel 1.8.1
+2013-04-01 11:23:24.937+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-04-01 11:23:24.937+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-04-01 11:23:24.937+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-04-01 11:23:24.953+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-04-01 11:23:24.953+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-04-01 11:23:24.953+0000: Id usage:
+    Id usage:
+      NodeStore: used=121 high=120
+      RelationshipStore: used=1 high=0
+      RelationshipTypeStore: used=0 high=-1
+      PropertyStore: used=120 high=119
+      PropertyIndexStore: used=4 high=3
+      StringPropertyStore: used=142 high=141
+      ArrayPropertyStore: used=1 high=0
+2013-04-01 11:23:24.953+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-04-01 11:23:24.953+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-04-01 11:23:24.953+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-04-01 11:23:24.953+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-04-01 11:23:24.953+0000: Disk space on partition (Total / Free / Free %): 104855834624 / 82537697280 / 21
+Storage files: (filename : modification date - size)
+      active_tx_log: 2013-03-27T03:59:45+0530 - 11.00 B
+      index:
+        lucene-store.db: 2013-04-01T16:44:27+0530 - 40.00 B
+        lucene.log.1: 2013-04-01T16:53:24+0530 - 16.00 B
+        lucene.log.active: 2013-04-01T16:53:24+0530 - 4.00 B
+        lucene.log.v0: 2013-03-27T03:59:45+0530 - 16.00 B
+        lucene.log.v1: 2013-03-27T03:59:45+0530 - 16.00 B
+        lucene.log.v10: 2013-03-27T05:21:29+0530 - 16.00 B
+        lucene.log.v11: 2013-03-27T05:24:56+0530 - 16.00 B
+        lucene.log.v12: 2013-03-27T05:25:42+0530 - 16.00 B
+        lucene.log.v13: 2013-03-27T05:26:02+0530 - 16.00 B
+        lucene.log.v14: 2013-03-27T05:37:30+0530 - 16.00 B
+        lucene.log.v15: 2013-03-27T05:41:16+0530 - 16.00 B
+        lucene.log.v16: 2013-03-27T05:45:36+0530 - 16.00 B
+        lucene.log.v17: 2013-03-27T05:45:46+0530 - 16.00 B
+        lucene.log.v18: 2013-03-27T05:47:34+0530 - 16.00 B
+        lucene.log.v19: 2013-03-27T05:48:05+0530 - 16.00 B
+        lucene.log.v2: 2013-03-27T03:59:45+0530 - 16.00 B
+        lucene.log.v20: 2013-03-27T05:49:40+0530 - 16.00 B
+        lucene.log.v21: 2013-03-27T06:03:07+0530 - 16.00 B
+        lucene.log.v22: 2013-03-27T06:05:25+0530 - 16.00 B
+        lucene.log.v23: 2013-03-27T06:10:49+0530 - 16.00 B
+        lucene.log.v24: 2013-03-27T06:11:27+0530 - 16.00 B
+        lucene.log.v25: 2013-03-27T06:12:38+0530 - 16.00 B
+        lucene.log.v26: 2013-03-27T06:13:20+0530 - 16.00 B
+        lucene.log.v27: 2013-03-27T06:14:13+0530 - 16.00 B
+        lucene.log.v28: 2013-03-28T13:17:46+0530 - 16.00 B
+        lucene.log.v29: 2013-03-28T13:18:07+0530 - 16.00 B
+        lucene.log.v3: 2013-03-27T03:59:45+0530 - 16.00 B
+        lucene.log.v30: 2013-03-28T13:19:48+0530 - 16.00 B
+        lucene.log.v31: 2013-03-28T13:20:22+0530 - 16.00 B
+        lucene.log.v32: 2013-04-01T13:48:19+0530 - 16.00 B
+        lucene.log.v33: 2013-04-01T13:58:40+0530 - 16.00 B
+        lucene.log.v34: 2013-04-01T13:59:21+0530 - 16.00 B
+        lucene.log.v35: 2013-04-01T14:01:11+0530 - 16.00 B
+        lucene.log.v36: 2013-04-01T14:04:00+0530 - 16.00 B
+        lucene.log.v37: 2013-04-01T14:07:18+0530 - 16.00 B
+        lucene.log.v38: 2013-04-01T14:07:50+0530 - 16.00 B
+        lucene.log.v39: 2013-04-01T14:13:12+0530 - 16.00 B
+        lucene.log.v4: 2013-03-27T03:59:45+0530 - 16.00 B
+        lucene.log.v40: 2013-04-01T14:13:37+0530 - 16.00 B
+        lucene.log.v41: 2013-04-01T14:15:29+0530 - 16.00 B
+        lucene.log.v42: 2013-04-01T14:16:14+0530 - 16.00 B
+        lucene.log.v43: 2013-04-01T14:20:39+0530 - 16.00 B
+        lucene.log.v44: 2013-04-01T14:22:15+0530 - 16.00 B
+        lucene.log.v45: 2013-04-01T14:22:59+0530 - 16.00 B
+        lucene.log.v46: 2013-04-01T14:23:39+0530 - 16.00 B
+        lucene.log.v47: 2013-04-01T14:23:52+0530 - 16.00 B
+        lucene.log.v48: 2013-04-01T14:24:00+0530 - 16.00 B
+        lucene.log.v49: 2013-04-01T14:24:17+0530 - 16.00 B
+        lucene.log.v5: 2013-03-27T04:03:00+0530 - 16.00 B
+        lucene.log.v50: 2013-04-01T14:24:56+0530 - 16.00 B
+        lucene.log.v51: 2013-04-01T14:26:48+0530 - 16.00 B
+        lucene.log.v52: 2013-04-01T14:31:43+0530 - 16.00 B
+        lucene.log.v53: 2013-04-01T14:40:54+0530 - 16.00 B
+        lucene.log.v54: 2013-04-01T14:41:57+0530 - 16.00 B
+        lucene.log.v55: 2013-04-01T14:44:02+0530 - 16.00 B
+        lucene.log.v56: 2013-04-01T14:48:41+0530 - 16.00 B
+        lucene.log.v57: 2013-04-01T14:50:20+0530 - 16.00 B
+        lucene.log.v58: 2013-04-01T14:54:24+0530 - 16.00 B
+        lucene.log.v59: 2013-04-01T14:56:15+0530 - 16.00 B
+        lucene.log.v6: 2013-03-27T04:17:28+0530 - 16.00 B
+        lucene.log.v60: 2013-04-01T15:12:49+0530 - 16.00 B
+        lucene.log.v61: 2013-04-01T15:38:37+0530 - 16.00 B
+        lucene.log.v62: 2013-04-01T15:40:05+0530 - 16.00 B
+        lucene.log.v63: 2013-04-01T15:41:32+0530 - 16.00 B
+        lucene.log.v64: 2013-04-01T15:42:05+0530 - 16.00 B
+        lucene.log.v65: 2013-04-01T15:42:30+0530 - 16.00 B
+        lucene.log.v66: 2013-04-01T15:46:23+0530 - 16.00 B
+        lucene.log.v67: 2013-04-01T15:49:41+0530 - 16.00 B
+        lucene.log.v68: 2013-04-01T16:14:15+0530 - 16.00 B
+        lucene.log.v69: 2013-04-01T16:17:52+0530 - 16.00 B
+        lucene.log.v7: 2013-03-27T04:18:05+0530 - 16.00 B
+        lucene.log.v70: 2013-04-01T16:26:33+0530 - 16.00 B
+        lucene.log.v71: 2013-04-01T16:26:40+0530 - 16.00 B
+        lucene.log.v72: 2013-04-01T16:30:55+0530 - 16.00 B
+        lucene.log.v73: 2013-04-01T16:31:17+0530 - 16.00 B
+        lucene.log.v74: 2013-04-01T16:34:07+0530 - 16.00 B
+        lucene.log.v75: 2013-04-01T16:39:43+0530 - 16.00 B
+        lucene.log.v76: 2013-04-01T16:41:08+0530 - 16.00 B
+        lucene.log.v77: 2013-04-01T16:43:17+0530 - 16.00 B
+        lucene.log.v78: 2013-04-01T16:44:27+0530 - 16.00 B
+        lucene.log.v8: 2013-03-27T05:14:43+0530 - 16.00 B
+        lucene.log.v9: 2013-03-27T05:14:55+0530 - 16.00 B
+      - Total: 2013-04-01T16:53:24+0530 - 1.29 kB
+      lock: 2013-04-01T16:53:24+0530 - 0.00 B
+      messages.log: 2013-04-01T16:44:28+0530 - 1.88 MB
+      neostore: 2013-04-01T16:53:24+0530 - 54.00 B
+      neostore.id: 2013-04-01T16:44:28+0530 - 9.00 B
+      neostore.nodestore.db: 2013-04-01T16:53:24+0530 - 1.06 kB
+      neostore.nodestore.db.id: 2013-04-01T16:44:28+0530 - 9.00 B
+      neostore.propertystore.db: 2013-04-01T16:53:24+0530 - 4.80 kB
+      neostore.propertystore.db.arrays: 2013-04-01T16:53:24+0530 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-04-01T16:44:28+0530 - 9.00 B
+      neostore.propertystore.db.id: 2013-04-01T16:44:28+0530 - 9.00 B
+      neostore.propertystore.db.index: 2013-04-01T16:53:24+0530 - 36.00 B
+      neostore.propertystore.db.index.id: 2013-04-01T16:44:28+0530 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-04-01T16:53:24+0530 - 152.00 B
+      neostore.propertystore.db.index.keys.id: 2013-04-01T16:44:28+0530 - 9.00 B
+      neostore.propertystore.db.strings: 2013-04-01T16:53:24+0530 - 17.75 kB
+      neostore.propertystore.db.strings.id: 2013-04-01T16:44:28+0530 - 9.00 B
+      neostore.relationshipstore.db: 2013-04-01T16:53:24+0530 - 33.00 B
+      neostore.relationshipstore.db.id: 2013-04-01T16:44:28+0530 - 9.00 B
+      neostore.relationshiptypestore.db: 2013-04-01T16:53:24+0530 - 0.00 B
+      neostore.relationshiptypestore.db.id: 2013-04-01T16:44:27+0530 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-04-01T16:53:24+0530 - 38.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-04-01T16:44:27+0530 - 9.00 B
+      nioneo_logical.log.1: 2013-04-01T16:53:24+0530 - 16.00 B
+      nioneo_logical.log.active: 2013-04-01T16:53:24+0530 - 4.00 B
+      nioneo_logical.log.v0: 2013-03-27T03:59:45+0530 - 718.00 B
+      nioneo_logical.log.v1: 2013-03-27T03:59:45+0530 - 16.00 B
+      nioneo_logical.log.v10: 2013-03-27T05:21:29+0530 - 16.00 B
+      nioneo_logical.log.v11: 2013-03-27T05:24:56+0530 - 16.00 B
+      nioneo_logical.log.v12: 2013-03-27T05:25:43+0530 - 16.00 B
+      nioneo_logical.log.v13: 2013-03-27T05:26:03+0530 - 16.00 B
+      nioneo_logical.log.v14: 2013-03-27T05:37:32+0530 - 16.00 B
+      nioneo_logical.log.v15: 2013-03-27T05:41:17+0530 - 16.00 B
+      nioneo_logical.log.v16: 2013-03-27T05:45:36+0530 - 16.00 B
+      nioneo_logical.log.v17: 2013-03-27T05:45:47+0530 - 16.00 B
+      nioneo_logical.log.v18: 2013-03-27T05:47:34+0530 - 16.00 B
+      nioneo_logical.log.v19: 2013-03-27T05:48:05+0530 - 16.00 B
+      nioneo_logical.log.v2: 2013-03-27T03:59:45+0530 - 16.00 B
+      nioneo_logical.log.v20: 2013-03-27T05:49:40+0530 - 16.00 B
+      nioneo_logical.log.v21: 2013-03-27T06:03:07+0530 - 16.00 B
+      nioneo_logical.log.v22: 2013-03-27T06:10:48+0530 - 16.00 B
+      nioneo_logical.log.v23: 2013-03-27T06:10:49+0530 - 1.00 kB
+      nioneo_logical.log.v24: 2013-03-27T06:11:27+0530 - 916.00 B
+      nioneo_logical.log.v25: 2013-03-27T06:12:38+0530 - 3.93 kB
+      nioneo_logical.log.v26: 2013-03-27T06:13:20+0530 - 3.94 kB
+      nioneo_logical.log.v27: 2013-03-27T06:14:13+0530 - 910.00 B
+      nioneo_logical.log.v28: 2013-03-28T13:17:47+0530 - 910.00 B
+      nioneo_logical.log.v29: 2013-03-28T13:18:08+0530 - 910.00 B
+      nioneo_logical.log.v3: 2013-03-27T03:59:45+0530 - 16.00 B
+      nioneo_logical.log.v30: 2013-03-28T13:19:49+0530 - 910.00 B
+      nioneo_logical.log.v31: 2013-03-28T13:20:22+0530 - 910.00 B
+      nioneo_logical.log.v32: 2013-04-01T13:48:20+0530 - 910.00 B
+      nioneo_logical.log.v33: 2013-04-01T13:58:40+0530 - 910.00 B
+      nioneo_logical.log.v34: 2013-04-01T13:59:21+0530 - 910.00 B
+      nioneo_logical.log.v35: 2013-04-01T14:01:11+0530 - 910.00 B
+      nioneo_logical.log.v36: 2013-04-01T14:04:00+0530 - 910.00 B
+      nioneo_logical.log.v37: 2013-04-01T14:07:18+0530 - 667.00 B
+      nioneo_logical.log.v38: 2013-04-01T14:07:50+0530 - 667.00 B
+      nioneo_logical.log.v39: 2013-04-01T14:13:13+0530 - 667.00 B
+      nioneo_logical.log.v4: 2013-03-27T03:59:45+0530 - 667.00 B
+      nioneo_logical.log.v40: 2013-04-01T14:13:37+0530 - 667.00 B
+      nioneo_logical.log.v41: 2013-04-01T14:15:29+0530 - 667.00 B
+      nioneo_logical.log.v42: 2013-04-01T14:16:14+0530 - 667.00 B
+      nioneo_logical.log.v43: 2013-04-01T14:20:40+0530 - 667.00 B
+      nioneo_logical.log.v44: 2013-04-01T14:22:15+0530 - 667.00 B
+      nioneo_logical.log.v45: 2013-04-01T14:22:59+0530 - 910.00 B
+      nioneo_logical.log.v46: 2013-04-01T14:23:39+0530 - 667.00 B
+      nioneo_logical.log.v47: 2013-04-01T14:23:52+0530 - 910.00 B
+      nioneo_logical.log.v48: 2013-04-01T14:24:01+0530 - 667.00 B
+      nioneo_logical.log.v49: 2013-04-01T14:24:17+0530 - 667.00 B
+      nioneo_logical.log.v5: 2013-03-27T04:03:00+0530 - 553.00 B
+      nioneo_logical.log.v50: 2013-04-01T14:24:56+0530 - 910.00 B
+      nioneo_logical.log.v51: 2013-04-01T14:26:48+0530 - 667.00 B
+      nioneo_logical.log.v52: 2013-04-01T14:31:43+0530 - 910.00 B
+      nioneo_logical.log.v53: 2013-04-01T14:40:55+0530 - 909.00 B
+      nioneo_logical.log.v54: 2013-04-01T14:41:57+0530 - 2.16 kB
+      nioneo_logical.log.v55: 2013-04-01T14:44:02+0530 - 2.16 kB
+      nioneo_logical.log.v56: 2013-04-01T14:48:41+0530 - 2.15 kB
+      nioneo_logical.log.v57: 2013-04-01T14:50:20+0530 - 2.15 kB
+      nioneo_logical.log.v58: 2013-04-01T14:54:24+0530 - 1.57 kB
+      nioneo_logical.log.v59: 2013-04-01T14:56:16+0530 - 761.00 B
+      nioneo_logical.log.v6: 2013-03-27T04:17:29+0530 - 362.00 B
+      nioneo_logical.log.v60: 2013-04-01T15:12:49+0530 - 761.00 B
+      nioneo_logical.log.v61: 2013-04-01T15:38:38+0530 - 761.00 B
+      nioneo_logical.log.v62: 2013-04-01T15:40:05+0530 - 761.00 B
+      nioneo_logical.log.v63: 2013-04-01T15:41:32+0530 - 761.00 B
+      nioneo_logical.log.v64: 2013-04-01T15:42:05+0530 - 761.00 B
+      nioneo_logical.log.v65: 2013-04-01T15:42:30+0530 - 761.00 B
+      nioneo_logical.log.v66: 2013-04-01T15:46:24+0530 - 761.00 B
+      nioneo_logical.log.v67: 2013-04-01T15:49:42+0530 - 761.00 B
+      nioneo_logical.log.v68: 2013-04-01T16:14:15+0530 - 761.00 B
+      nioneo_logical.log.v69: 2013-04-01T16:17:52+0530 - 761.00 B
+      nioneo_logical.log.v7: 2013-03-27T04:18:05+0530 - 362.00 B
+      nioneo_logical.log.v70: 2013-04-01T16:26:34+0530 - 761.00 B
+      nioneo_logical.log.v71: 2013-04-01T16:26:41+0530 - 761.00 B
+      nioneo_logical.log.v72: 2013-04-01T16:30:55+0530 - 761.00 B
+      nioneo_logical.log.v73: 2013-04-01T16:31:17+0530 - 761.00 B
+      nioneo_logical.log.v74: 2013-04-01T16:34:08+0530 - 1.34 kB
+      nioneo_logical.log.v75: 2013-04-01T16:39:44+0530 - 1.34 kB
+      nioneo_logical.log.v76: 2013-04-01T16:41:09+0530 - 1.34 kB
+      nioneo_logical.log.v77: 2013-04-01T16:43:18+0530 - 1.34 kB
+      nioneo_logical.log.v78: 2013-04-01T16:44:27+0530 - 712.00 B
+      nioneo_logical.log.v8: 2013-03-27T05:14:43+0530 - 16.00 B
+      nioneo_logical.log.v9: 2013-03-27T05:14:55+0530 - 16.00 B
+      tm_tx_log.1: 2013-04-01T16:53:24+0530 - 0.00 B
+2013-04-01 11:23:24.984+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-04-01 11:23:24.984+0000: Started - database is now available
+2013-04-01 11:23:24.984+0000: GC Monitor started. 
+2013-04-01 11:23:25.156+0000: Stopping - database is now unavailable
+2013-04-01 11:23:25.171+0000: TM shutting down
+2013-04-01 11:23:25.203+0000: GC Monitor stopped. 
+2013-04-01 11:23:25.203+0000: Closed log C:\eclipse\workspace\buganalyzer\target\neo4j-db\index\lucene.log
+2013-04-01 11:23:25.500+0000: Closed log C:\eclipse\workspace\buganalyzer\target\neo4j-db\nioneo_logical.log
+2013-04-01 11:23:25.515+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-04-01 11:23:25.546+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-04-01 11:23:25.609+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.strings hit=2 miss=0 switches=0 ooe=0
+2013-04-01 11:23:25.656+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.index.keys hit=6 miss=0 switches=0 ooe=0
+2013-04-01 11:23:25.703+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.index hit=4 miss=0 switches=0 ooe=0
+2013-04-01 11:23:25.765+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-04-01 11:23:25.812+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db hit=5 miss=0 switches=0 ooe=0
+2013-04-01 11:23:25.890+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2013-04-01 11:23:25.968+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.nodestore.db hit=3 miss=0 switches=0 ooe=0
+2013-04-01 11:23:26.031+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore hit=0 miss=19 switches=0 ooe=0
+2013-04-01 11:23:26.062+0000: NeoStore closed
+2013-04-01 11:23:26.062+0000: --- SHUTDOWN diagnostics START ---
+2013-04-01 11:23:26.062+0000: --- SHUTDOWN diagnostics END ---
+2013-04-01 11:32:57.093+0000: WARNING! Deprecated configuration options used. See manual for details
+2013-04-01 11:32:57.109+0000: cannot configure writers and searchers individually since they go together
+2013-04-01 11:32:57.109+0000: WARNING! You are using an unsupported version of the JDK. Please use JDK 6.
+2013-04-01 11:32:57.171+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-04-01 11:32:57.187+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-04-01 11:32:57.187+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.strings] brickCount=1 brickSize=12544b mappedMem=12582912b (storeSize=18432b)
+2013-04-01 11:32:57.187+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=152b)
+2013-04-01 11:32:57.187+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.index] brickCount=0 brickSize=1044b mappedMem=1048576b (storeSize=36b)
+2013-04-01 11:32:57.187+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.arrays] brickCount=0 brickSize=14592b mappedMem=14680064b (storeSize=128b)
+2013-04-01 11:32:57.187+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db] brickCount=0 brickSize=15703b mappedMem=15728640b (storeSize=4961b)
+2013-04-01 11:32:57.187+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshipstore.db] brickCount=0 brickSize=18843b mappedMem=18874368b (storeSize=33b)
+2013-04-01 11:32:57.187+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.nodestore.db] brickCount=0 brickSize=4194b mappedMem=4194304b (storeSize=1098b)
+2013-04-01 11:32:57.203+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-04-01 11:32:57.218+0000: Opened logical log [C:\eclipse\workspace\buganalyzer\target\neo4j-db\nioneo_logical.log.1] version=80, lastTxId=258 (clean)
+2013-04-01 11:32:57.234+0000: TM opening log: C:\eclipse\workspace\buganalyzer\target\neo4j-db\tm_tx_log.1
+2013-04-01 11:32:57.265+0000: Opened logical log [C:\eclipse\workspace\buganalyzer\target\neo4j-db\index\lucene.log.1] version=80, lastTxId=1 (clean)
+2013-04-01 11:32:57.281+0000: --- STARTUP diagnostics START ---
+2013-04-01 11:32:57.281+0000: Neo4j Kernel properties:
+    forced_kernel_id=
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    node_auto_indexing=false
+    intercept_committing_transactions=false
+    remote_shell_name=shell
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=false
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=14M
+    neostore.propertystore.db.strings.mapped_memory=12M
+    log_mapped_memory_stats_filename=mapped_memory_stats.log
+    log_mapped_memory_stats_interval=1000000
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    remote_shell_read_only=false
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    remote_logging_host=127.0.0.1
+    store_dir=target/neo4j-db
+    online_backup_enabled=false
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    array_block_size=120
+    load_kernel_extensions=true
+    neostore.relationshipstore.db.mapped_memory=18M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=4M
+    neo4j.ext.udc.first_delay=600000
+    remote_shell_enabled=false
+    neo4j.ext.udc.reg=unreg
+    remote_shell_port=1337
+    log_mapped_memory_stats=false
+    neo_store=neostore
+    mapped_memory_page_size=1M
+    query_cache_size=100
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=15M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    neo4j.ext.udc.enabled=true
+    all_stores_total_mapped_memory_size=500M
+    online_backup_port=6362
+2013-04-01 11:32:57.281+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    NETWORK
+2013-04-01 11:32:57.281+0000: System memory information:
+    Total Physical memory: 2.00 GB
+    Free Physical memory: 1.85 GB
+    Committed virtual memory: 37.48 MB
+    Total swap space: 4.00 GB
+    Free swap space: 3.87 GB
+2013-04-01 11:32:57.296+0000: JVM memory information:
+    Free  memory: 12.72 MB
+    Total memory: 15.50 MB
+    Max   memory: 247.50 MB
+    Garbage Collector: Copy: [Eden Space, Survivor Space]
+    Garbage Collector: MarkSweepCompact: [Eden Space, Survivor Space, Tenured Gen, Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=864.00 kB, used=849.88 kB, max=32.00 MB, threshold=0.00 B
+    Memory Pool: Eden Space (Heap memory): committed=4.31 MB, used=82.23 kB, max=68.31 MB, threshold=?
+    Memory Pool: Survivor Space (Heap memory): committed=512.00 kB, used=511.99 kB, max=8.50 MB, threshold=?
+    Memory Pool: Tenured Gen (Heap memory): committed=10.69 MB, used=2.20 MB, max=170.69 MB, threshold=0.00 B
+    Memory Pool: Perm Gen (Non-heap memory): committed=12.00 MB, used=4.65 MB, max=64.00 MB, threshold=0.00 B
+2013-04-01 11:32:57.296+0000: Operating system information:
+    Operating System: Windows XP; version: 5.1; arch: x86; cpus: 4
+    Process id: 2236@Tejaswi_Comp
+    Byte order: LITTLE_ENDIAN
+    Local timezone: Asia/Calcutta
+2013-04-01 11:32:57.312+0000: JVM information:
+    VM Name: Java HotSpot(TM) Client VM
+    VM Vendor: Oracle Corporation
+    VM Version: 23.6-b04
+    JIT compiler: HotSpot Client Compiler
+    VM Arguments: [-Dfile.encoding=Cp1252]
+2013-04-01 11:32:57.312+0000: Java classpath:
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/localedata.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\sunrsasign.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/server-api-1.8.1.jar
+     [classpath + loader.0] file:/C:/eclipse/workspace/buganalyzer/bin/
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\charsets.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\classes
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/geronimo-jta_1.1_spec-1.1.1.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-graph-matching-1.8.1.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/sunec.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\jsse.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/zipfs.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\jce.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-lucene-index-1.8.1.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\resources.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\jfr.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-shell-1.8.1.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/scala-library-2.9.1-1.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/sunmscapi.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-jmx-1.8.1.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-cypher-1.8.1.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-graph-algo-1.8.1.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\rt.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-udc-1.8.1.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/sunpkcs11.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/jaccess.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-kernel-1.8.1.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/lucene-core-3.5.0.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/dnsns.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/access-bridge.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/sunjce_provider.jar
+2013-04-01 11:32:57.312+0000: Library path:
+    C:\Program Files\Java\jdk1.7.0_11\jre\bin
+    C:\WINDOWS\Sun\Java\bin
+    C:\WINDOWS\system32
+    C:\WINDOWS
+    C:\Program Files\Java\jre7\bin\client
+    C:\Program Files\Java\jre7\bin
+    C:\Program Files\Java\jre7\lib\i386
+    C:\WINDOWS\system32
+    C:\WINDOWS
+    C:\WINDOWS\system32\wbem
+    C:\Program Files\Java\jdk1.7.0_15\bin
+    C:\Program Files\MiKTeX 2.9\miktex\bin
+    C:\eclipse
+    C:\eclipse\workspace\buganalyzer
+    C:\eclipse\workspace\buganalyzer
+2013-04-01 11:32:57.312+0000: System.properties:
+    sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_11\jre\bin
+    path.separator = ;
+    file.encoding.pkg = sun.io
+    user.country = US
+    user.script = 
+    sun.java.launcher = SUN_STANDARD
+    sun.os.patch.level = Service Pack 3
+    user.dir = C:\eclipse\workspace\buganalyzer
+    user.variant = 
+    sun.jnu.encoding = Cp1252
+    sun.management.compiler = HotSpot Client Compiler
+    user.home = C:\Documents and Settings\J2T
+    user.timezone = Asia/Calcutta
+    file.encoding = Cp1252
+    user.name = J2T
+    sun.java.command = org.j2t.buganalyzer.App
+    sun.arch.data.model = 32
+    user.language = en
+    awt.toolkit = sun.awt.windows.WToolkit
+    file.separator = \
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    sun.desktop = windows
+    sun.cpu.isalist = pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+2013-04-01 11:32:57.312+0000: Network information:
+    Interface MS TCP Loopback interface:
+        address: 127.0.0.1
+    Interface Realtek PCIe GBE Family Controller - Teefer2 Miniport:
+        address: 172.16.40.6
+2013-04-01 11:32:57.312+0000: --- STARTUP diagnostics END ---
+2013-04-01 11:32:57.328+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-04-01 11:32:57.375+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-04-01 11:32:57.375+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-04-01 11:32:57.375+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2013-04-01 11:32:57.375+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-04-01 11:32:57.375+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1364226193996, id:7348971443519364127, store version: 13561656364791302]
+2013-04-01 11:32:57.375+0000: Kernel version: Neo4j - Graph Database Kernel 1.8.1
+2013-04-01 11:32:57.390+0000: Neo4j component versions:
+2013-04-01 11:32:57.390+0000:   Neo4j - Graph Database Kernel 1.8.1
+2013-04-01 11:32:57.390+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-04-01 11:32:57.390+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-04-01 11:32:57.390+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-04-01 11:32:57.390+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-04-01 11:32:57.390+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-04-01 11:32:57.390+0000: Id usage:
+    Id usage:
+      NodeStore: used=122 high=121
+      RelationshipStore: used=1 high=0
+      RelationshipTypeStore: used=0 high=-1
+      PropertyStore: used=121 high=120
+      PropertyIndexStore: used=4 high=3
+      StringPropertyStore: used=144 high=143
+      ArrayPropertyStore: used=1 high=0
+2013-04-01 11:32:57.390+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-04-01 11:32:57.390+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-04-01 11:32:57.390+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-04-01 11:32:57.390+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-04-01 11:32:57.390+0000: Disk space on partition (Total / Free / Free %): 104855834624 / 82537529344 / 21
+Storage files: (filename : modification date - size)
+      active_tx_log: 2013-03-27T03:59:45+0530 - 11.00 B
+      index:
+        lucene-store.db: 2013-04-01T16:53:25+0530 - 40.00 B
+        lucene.log.1: 2013-04-01T17:02:57+0530 - 16.00 B
+        lucene.log.active: 2013-04-01T17:02:57+0530 - 4.00 B
+        lucene.log.v0: 2013-03-27T03:59:45+0530 - 16.00 B
+        lucene.log.v1: 2013-03-27T03:59:45+0530 - 16.00 B
+        lucene.log.v10: 2013-03-27T05:21:29+0530 - 16.00 B
+        lucene.log.v11: 2013-03-27T05:24:56+0530 - 16.00 B
+        lucene.log.v12: 2013-03-27T05:25:42+0530 - 16.00 B
+        lucene.log.v13: 2013-03-27T05:26:02+0530 - 16.00 B
+        lucene.log.v14: 2013-03-27T05:37:30+0530 - 16.00 B
+        lucene.log.v15: 2013-03-27T05:41:16+0530 - 16.00 B
+        lucene.log.v16: 2013-03-27T05:45:36+0530 - 16.00 B
+        lucene.log.v17: 2013-03-27T05:45:46+0530 - 16.00 B
+        lucene.log.v18: 2013-03-27T05:47:34+0530 - 16.00 B
+        lucene.log.v19: 2013-03-27T05:48:05+0530 - 16.00 B
+        lucene.log.v2: 2013-03-27T03:59:45+0530 - 16.00 B
+        lucene.log.v20: 2013-03-27T05:49:40+0530 - 16.00 B
+        lucene.log.v21: 2013-03-27T06:03:07+0530 - 16.00 B
+        lucene.log.v22: 2013-03-27T06:05:25+0530 - 16.00 B
+        lucene.log.v23: 2013-03-27T06:10:49+0530 - 16.00 B
+        lucene.log.v24: 2013-03-27T06:11:27+0530 - 16.00 B
+        lucene.log.v25: 2013-03-27T06:12:38+0530 - 16.00 B
+        lucene.log.v26: 2013-03-27T06:13:20+0530 - 16.00 B
+        lucene.log.v27: 2013-03-27T06:14:13+0530 - 16.00 B
+        lucene.log.v28: 2013-03-28T13:17:46+0530 - 16.00 B
+        lucene.log.v29: 2013-03-28T13:18:07+0530 - 16.00 B
+        lucene.log.v3: 2013-03-27T03:59:45+0530 - 16.00 B
+        lucene.log.v30: 2013-03-28T13:19:48+0530 - 16.00 B
+        lucene.log.v31: 2013-03-28T13:20:22+0530 - 16.00 B
+        lucene.log.v32: 2013-04-01T13:48:19+0530 - 16.00 B
+        lucene.log.v33: 2013-04-01T13:58:40+0530 - 16.00 B
+        lucene.log.v34: 2013-04-01T13:59:21+0530 - 16.00 B
+        lucene.log.v35: 2013-04-01T14:01:11+0530 - 16.00 B
+        lucene.log.v36: 2013-04-01T14:04:00+0530 - 16.00 B
+        lucene.log.v37: 2013-04-01T14:07:18+0530 - 16.00 B
+        lucene.log.v38: 2013-04-01T14:07:50+0530 - 16.00 B
+        lucene.log.v39: 2013-04-01T14:13:12+0530 - 16.00 B
+        lucene.log.v4: 2013-03-27T03:59:45+0530 - 16.00 B
+        lucene.log.v40: 2013-04-01T14:13:37+0530 - 16.00 B
+        lucene.log.v41: 2013-04-01T14:15:29+0530 - 16.00 B
+        lucene.log.v42: 2013-04-01T14:16:14+0530 - 16.00 B
+        lucene.log.v43: 2013-04-01T14:20:39+0530 - 16.00 B
+        lucene.log.v44: 2013-04-01T14:22:15+0530 - 16.00 B
+        lucene.log.v45: 2013-04-01T14:22:59+0530 - 16.00 B
+        lucene.log.v46: 2013-04-01T14:23:39+0530 - 16.00 B
+        lucene.log.v47: 2013-04-01T14:23:52+0530 - 16.00 B
+        lucene.log.v48: 2013-04-01T14:24:00+0530 - 16.00 B
+        lucene.log.v49: 2013-04-01T14:24:17+0530 - 16.00 B
+        lucene.log.v5: 2013-03-27T04:03:00+0530 - 16.00 B
+        lucene.log.v50: 2013-04-01T14:24:56+0530 - 16.00 B
+        lucene.log.v51: 2013-04-01T14:26:48+0530 - 16.00 B
+        lucene.log.v52: 2013-04-01T14:31:43+0530 - 16.00 B
+        lucene.log.v53: 2013-04-01T14:40:54+0530 - 16.00 B
+        lucene.log.v54: 2013-04-01T14:41:57+0530 - 16.00 B
+        lucene.log.v55: 2013-04-01T14:44:02+0530 - 16.00 B
+        lucene.log.v56: 2013-04-01T14:48:41+0530 - 16.00 B
+        lucene.log.v57: 2013-04-01T14:50:20+0530 - 16.00 B
+        lucene.log.v58: 2013-04-01T14:54:24+0530 - 16.00 B
+        lucene.log.v59: 2013-04-01T14:56:15+0530 - 16.00 B
+        lucene.log.v6: 2013-03-27T04:17:28+0530 - 16.00 B
+        lucene.log.v60: 2013-04-01T15:12:49+0530 - 16.00 B
+        lucene.log.v61: 2013-04-01T15:38:37+0530 - 16.00 B
+        lucene.log.v62: 2013-04-01T15:40:05+0530 - 16.00 B
+        lucene.log.v63: 2013-04-01T15:41:32+0530 - 16.00 B
+        lucene.log.v64: 2013-04-01T15:42:05+0530 - 16.00 B
+        lucene.log.v65: 2013-04-01T15:42:30+0530 - 16.00 B
+        lucene.log.v66: 2013-04-01T15:46:23+0530 - 16.00 B
+        lucene.log.v67: 2013-04-01T15:49:41+0530 - 16.00 B
+        lucene.log.v68: 2013-04-01T16:14:15+0530 - 16.00 B
+        lucene.log.v69: 2013-04-01T16:17:52+0530 - 16.00 B
+        lucene.log.v7: 2013-03-27T04:18:05+0530 - 16.00 B
+        lucene.log.v70: 2013-04-01T16:26:33+0530 - 16.00 B
+        lucene.log.v71: 2013-04-01T16:26:40+0530 - 16.00 B
+        lucene.log.v72: 2013-04-01T16:30:55+0530 - 16.00 B
+        lucene.log.v73: 2013-04-01T16:31:17+0530 - 16.00 B
+        lucene.log.v74: 2013-04-01T16:34:07+0530 - 16.00 B
+        lucene.log.v75: 2013-04-01T16:39:43+0530 - 16.00 B
+        lucene.log.v76: 2013-04-01T16:41:08+0530 - 16.00 B
+        lucene.log.v77: 2013-04-01T16:43:17+0530 - 16.00 B
+        lucene.log.v78: 2013-04-01T16:44:27+0530 - 16.00 B
+        lucene.log.v79: 2013-04-01T16:53:25+0530 - 16.00 B
+        lucene.log.v8: 2013-03-27T05:14:43+0530 - 16.00 B
+        lucene.log.v9: 2013-03-27T05:14:55+0530 - 16.00 B
+      - Total: 2013-04-01T17:02:57+0530 - 1.31 kB
+      lock: 2013-04-01T17:02:57+0530 - 0.00 B
+      messages.log: 2013-04-01T16:53:26+0530 - 1.91 MB
+      neostore: 2013-04-01T17:02:57+0530 - 54.00 B
+      neostore.id: 2013-04-01T16:53:26+0530 - 9.00 B
+      neostore.nodestore.db: 2013-04-01T17:02:57+0530 - 1.07 kB
+      neostore.nodestore.db.id: 2013-04-01T16:53:25+0530 - 9.00 B
+      neostore.propertystore.db: 2013-04-01T17:02:57+0530 - 4.84 kB
+      neostore.propertystore.db.arrays: 2013-04-01T17:02:57+0530 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-04-01T16:53:25+0530 - 9.00 B
+      neostore.propertystore.db.id: 2013-04-01T16:53:25+0530 - 9.00 B
+      neostore.propertystore.db.index: 2013-04-01T17:02:57+0530 - 36.00 B
+      neostore.propertystore.db.index.id: 2013-04-01T16:53:25+0530 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-04-01T17:02:57+0530 - 152.00 B
+      neostore.propertystore.db.index.keys.id: 2013-04-01T16:53:25+0530 - 9.00 B
+      neostore.propertystore.db.strings: 2013-04-01T17:02:57+0530 - 18.00 kB
+      neostore.propertystore.db.strings.id: 2013-04-01T16:53:25+0530 - 9.00 B
+      neostore.relationshipstore.db: 2013-04-01T17:02:57+0530 - 33.00 B
+      neostore.relationshipstore.db.id: 2013-04-01T16:53:25+0530 - 9.00 B
+      neostore.relationshiptypestore.db: 2013-04-01T17:02:57+0530 - 0.00 B
+      neostore.relationshiptypestore.db.id: 2013-04-01T16:53:25+0530 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-04-01T17:02:57+0530 - 38.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-04-01T16:53:25+0530 - 9.00 B
+      nioneo_logical.log.1: 2013-04-01T17:02:57+0530 - 16.00 B
+      nioneo_logical.log.active: 2013-04-01T17:02:57+0530 - 4.00 B
+      nioneo_logical.log.v0: 2013-03-27T03:59:45+0530 - 718.00 B
+      nioneo_logical.log.v1: 2013-03-27T03:59:45+0530 - 16.00 B
+      nioneo_logical.log.v10: 2013-03-27T05:21:29+0530 - 16.00 B
+      nioneo_logical.log.v11: 2013-03-27T05:24:56+0530 - 16.00 B
+      nioneo_logical.log.v12: 2013-03-27T05:25:43+0530 - 16.00 B
+      nioneo_logical.log.v13: 2013-03-27T05:26:03+0530 - 16.00 B
+      nioneo_logical.log.v14: 2013-03-27T05:37:32+0530 - 16.00 B
+      nioneo_logical.log.v15: 2013-03-27T05:41:17+0530 - 16.00 B
+      nioneo_logical.log.v16: 2013-03-27T05:45:36+0530 - 16.00 B
+      nioneo_logical.log.v17: 2013-03-27T05:45:47+0530 - 16.00 B
+      nioneo_logical.log.v18: 2013-03-27T05:47:34+0530 - 16.00 B
+      nioneo_logical.log.v19: 2013-03-27T05:48:05+0530 - 16.00 B
+      nioneo_logical.log.v2: 2013-03-27T03:59:45+0530 - 16.00 B
+      nioneo_logical.log.v20: 2013-03-27T05:49:40+0530 - 16.00 B
+      nioneo_logical.log.v21: 2013-03-27T06:03:07+0530 - 16.00 B
+      nioneo_logical.log.v22: 2013-03-27T06:10:48+0530 - 16.00 B
+      nioneo_logical.log.v23: 2013-03-27T06:10:49+0530 - 1.00 kB
+      nioneo_logical.log.v24: 2013-03-27T06:11:27+0530 - 916.00 B
+      nioneo_logical.log.v25: 2013-03-27T06:12:38+0530 - 3.93 kB
+      nioneo_logical.log.v26: 2013-03-27T06:13:20+0530 - 3.94 kB
+      nioneo_logical.log.v27: 2013-03-27T06:14:13+0530 - 910.00 B
+      nioneo_logical.log.v28: 2013-03-28T13:17:47+0530 - 910.00 B
+      nioneo_logical.log.v29: 2013-03-28T13:18:08+0530 - 910.00 B
+      nioneo_logical.log.v3: 2013-03-27T03:59:45+0530 - 16.00 B
+      nioneo_logical.log.v30: 2013-03-28T13:19:49+0530 - 910.00 B
+      nioneo_logical.log.v31: 2013-03-28T13:20:22+0530 - 910.00 B
+      nioneo_logical.log.v32: 2013-04-01T13:48:20+0530 - 910.00 B
+      nioneo_logical.log.v33: 2013-04-01T13:58:40+0530 - 910.00 B
+      nioneo_logical.log.v34: 2013-04-01T13:59:21+0530 - 910.00 B
+      nioneo_logical.log.v35: 2013-04-01T14:01:11+0530 - 910.00 B
+      nioneo_logical.log.v36: 2013-04-01T14:04:00+0530 - 910.00 B
+      nioneo_logical.log.v37: 2013-04-01T14:07:18+0530 - 667.00 B
+      nioneo_logical.log.v38: 2013-04-01T14:07:50+0530 - 667.00 B
+      nioneo_logical.log.v39: 2013-04-01T14:13:13+0530 - 667.00 B
+      nioneo_logical.log.v4: 2013-03-27T03:59:45+0530 - 667.00 B
+      nioneo_logical.log.v40: 2013-04-01T14:13:37+0530 - 667.00 B
+      nioneo_logical.log.v41: 2013-04-01T14:15:29+0530 - 667.00 B
+      nioneo_logical.log.v42: 2013-04-01T14:16:14+0530 - 667.00 B
+      nioneo_logical.log.v43: 2013-04-01T14:20:40+0530 - 667.00 B
+      nioneo_logical.log.v44: 2013-04-01T14:22:15+0530 - 667.00 B
+      nioneo_logical.log.v45: 2013-04-01T14:22:59+0530 - 910.00 B
+      nioneo_logical.log.v46: 2013-04-01T14:23:39+0530 - 667.00 B
+      nioneo_logical.log.v47: 2013-04-01T14:23:52+0530 - 910.00 B
+      nioneo_logical.log.v48: 2013-04-01T14:24:01+0530 - 667.00 B
+      nioneo_logical.log.v49: 2013-04-01T14:24:17+0530 - 667.00 B
+      nioneo_logical.log.v5: 2013-03-27T04:03:00+0530 - 553.00 B
+      nioneo_logical.log.v50: 2013-04-01T14:24:56+0530 - 910.00 B
+      nioneo_logical.log.v51: 2013-04-01T14:26:48+0530 - 667.00 B
+      nioneo_logical.log.v52: 2013-04-01T14:31:43+0530 - 910.00 B
+      nioneo_logical.log.v53: 2013-04-01T14:40:55+0530 - 909.00 B
+      nioneo_logical.log.v54: 2013-04-01T14:41:57+0530 - 2.16 kB
+      nioneo_logical.log.v55: 2013-04-01T14:44:02+0530 - 2.16 kB
+      nioneo_logical.log.v56: 2013-04-01T14:48:41+0530 - 2.15 kB
+      nioneo_logical.log.v57: 2013-04-01T14:50:20+0530 - 2.15 kB
+      nioneo_logical.log.v58: 2013-04-01T14:54:24+0530 - 1.57 kB
+      nioneo_logical.log.v59: 2013-04-01T14:56:16+0530 - 761.00 B
+      nioneo_logical.log.v6: 2013-03-27T04:17:29+0530 - 362.00 B
+      nioneo_logical.log.v60: 2013-04-01T15:12:49+0530 - 761.00 B
+      nioneo_logical.log.v61: 2013-04-01T15:38:38+0530 - 761.00 B
+      nioneo_logical.log.v62: 2013-04-01T15:40:05+0530 - 761.00 B
+      nioneo_logical.log.v63: 2013-04-01T15:41:32+0530 - 761.00 B
+      nioneo_logical.log.v64: 2013-04-01T15:42:05+0530 - 761.00 B
+      nioneo_logical.log.v65: 2013-04-01T15:42:30+0530 - 761.00 B
+      nioneo_logical.log.v66: 2013-04-01T15:46:24+0530 - 761.00 B
+      nioneo_logical.log.v67: 2013-04-01T15:49:42+0530 - 761.00 B
+      nioneo_logical.log.v68: 2013-04-01T16:14:15+0530 - 761.00 B
+      nioneo_logical.log.v69: 2013-04-01T16:17:52+0530 - 761.00 B
+      nioneo_logical.log.v7: 2013-03-27T04:18:05+0530 - 362.00 B
+      nioneo_logical.log.v70: 2013-04-01T16:26:34+0530 - 761.00 B
+      nioneo_logical.log.v71: 2013-04-01T16:26:41+0530 - 761.00 B
+      nioneo_logical.log.v72: 2013-04-01T16:30:55+0530 - 761.00 B
+      nioneo_logical.log.v73: 2013-04-01T16:31:17+0530 - 761.00 B
+      nioneo_logical.log.v74: 2013-04-01T16:34:08+0530 - 1.34 kB
+      nioneo_logical.log.v75: 2013-04-01T16:39:44+0530 - 1.34 kB
+      nioneo_logical.log.v76: 2013-04-01T16:41:09+0530 - 1.34 kB
+      nioneo_logical.log.v77: 2013-04-01T16:43:18+0530 - 1.34 kB
+      nioneo_logical.log.v78: 2013-04-01T16:44:27+0530 - 712.00 B
+      nioneo_logical.log.v79: 2013-04-01T16:53:25+0530 - 712.00 B
+      nioneo_logical.log.v8: 2013-03-27T05:14:43+0530 - 16.00 B
+      nioneo_logical.log.v9: 2013-03-27T05:14:55+0530 - 16.00 B
+      tm_tx_log.1: 2013-04-01T17:02:57+0530 - 0.00 B
+2013-04-01 11:32:57.437+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-04-01 11:32:57.437+0000: Started - database is now available
+2013-04-01 11:32:57.437+0000: GC Monitor started. 
+2013-04-01 11:32:57.593+0000: Stopping - database is now unavailable
+2013-04-01 11:32:57.609+0000: TM shutting down
+2013-04-01 11:32:57.640+0000: Closed log C:\eclipse\workspace\buganalyzer\target\neo4j-db\index\lucene.log
+2013-04-01 11:32:57.656+0000: GC Monitor stopped. 
+2013-04-01 11:32:57.921+0000: Closed log C:\eclipse\workspace\buganalyzer\target\neo4j-db\nioneo_logical.log
+2013-04-01 11:32:57.921+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-04-01 11:32:57.984+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-04-01 11:32:58.031+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.strings hit=2 miss=0 switches=0 ooe=0
+2013-04-01 11:32:58.109+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.index.keys hit=6 miss=0 switches=0 ooe=0
+2013-04-01 11:32:58.156+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.index hit=4 miss=0 switches=0 ooe=0
+2013-04-01 11:32:58.218+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-04-01 11:32:58.265+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db hit=5 miss=0 switches=0 ooe=0
+2013-04-01 11:32:58.312+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2013-04-01 11:32:58.359+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.nodestore.db hit=3 miss=0 switches=0 ooe=0
+2013-04-01 11:32:58.421+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore hit=0 miss=19 switches=0 ooe=0
+2013-04-01 11:32:58.453+0000: NeoStore closed
+2013-04-01 11:32:58.453+0000: --- SHUTDOWN diagnostics START ---
+2013-04-01 11:32:58.453+0000: --- SHUTDOWN diagnostics END ---
+2013-04-01 11:34:30.984+0000: WARNING! Deprecated configuration options used. See manual for details
+2013-04-01 11:34:31.000+0000: cannot configure writers and searchers individually since they go together
+2013-04-01 11:34:31.000+0000: WARNING! You are using an unsupported version of the JDK. Please use JDK 6.
+2013-04-01 11:34:31.078+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-04-01 11:34:31.078+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-04-01 11:34:31.078+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.strings] brickCount=1 brickSize=12544b mappedMem=12582912b (storeSize=18688b)
+2013-04-01 11:34:31.078+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=152b)
+2013-04-01 11:34:31.078+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.index] brickCount=0 brickSize=1044b mappedMem=1048576b (storeSize=36b)
+2013-04-01 11:34:31.078+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.arrays] brickCount=0 brickSize=14592b mappedMem=14680064b (storeSize=128b)
+2013-04-01 11:34:31.078+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db] brickCount=0 brickSize=15703b mappedMem=15728640b (storeSize=5002b)
+2013-04-01 11:34:31.093+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshipstore.db] brickCount=0 brickSize=18843b mappedMem=18874368b (storeSize=33b)
+2013-04-01 11:34:31.093+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.nodestore.db] brickCount=0 brickSize=4194b mappedMem=4194304b (storeSize=1107b)
+2013-04-01 11:34:31.093+0000: [C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-04-01 11:34:31.109+0000: Opened logical log [C:\eclipse\workspace\buganalyzer\target\neo4j-db\nioneo_logical.log.1] version=81, lastTxId=261 (clean)
+2013-04-01 11:34:31.140+0000: TM opening log: C:\eclipse\workspace\buganalyzer\target\neo4j-db\tm_tx_log.1
+2013-04-01 11:34:31.171+0000: Opened logical log [C:\eclipse\workspace\buganalyzer\target\neo4j-db\index\lucene.log.1] version=81, lastTxId=1 (clean)
+2013-04-01 11:34:31.187+0000: --- STARTUP diagnostics START ---
+2013-04-01 11:34:31.187+0000: Neo4j Kernel properties:
+    forced_kernel_id=
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    node_auto_indexing=false
+    intercept_committing_transactions=false
+    remote_shell_name=shell
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=false
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=14M
+    neostore.propertystore.db.strings.mapped_memory=12M
+    log_mapped_memory_stats_filename=mapped_memory_stats.log
+    log_mapped_memory_stats_interval=1000000
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    remote_shell_read_only=false
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    remote_logging_host=127.0.0.1
+    store_dir=target/neo4j-db
+    online_backup_enabled=false
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    array_block_size=120
+    load_kernel_extensions=true
+    neostore.relationshipstore.db.mapped_memory=18M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=4M
+    neo4j.ext.udc.first_delay=600000
+    remote_shell_enabled=false
+    neo4j.ext.udc.reg=unreg
+    remote_shell_port=1337
+    log_mapped_memory_stats=false
+    neo_store=neostore
+    mapped_memory_page_size=1M
+    query_cache_size=100
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=15M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    neo4j.ext.udc.enabled=true
+    all_stores_total_mapped_memory_size=500M
+    online_backup_port=6362
+2013-04-01 11:34:31.187+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    NETWORK
+2013-04-01 11:34:31.187+0000: System memory information:
+    Total Physical memory: 2.00 GB
+    Free Physical memory: 1.84 GB
+    Committed virtual memory: 37.48 MB
+    Total swap space: 4.00 GB
+    Free swap space: 3.86 GB
+2013-04-01 11:34:31.187+0000: JVM memory information:
+    Free  memory: 12.72 MB
+    Total memory: 15.50 MB
+    Max   memory: 247.50 MB
+    Garbage Collector: Copy: [Eden Space, Survivor Space]
+    Garbage Collector: MarkSweepCompact: [Eden Space, Survivor Space, Tenured Gen, Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=864.00 kB, used=849.88 kB, max=32.00 MB, threshold=0.00 B
+    Memory Pool: Eden Space (Heap memory): committed=4.31 MB, used=82.23 kB, max=68.31 MB, threshold=?
+    Memory Pool: Survivor Space (Heap memory): committed=512.00 kB, used=511.99 kB, max=8.50 MB, threshold=?
+    Memory Pool: Tenured Gen (Heap memory): committed=10.69 MB, used=2.20 MB, max=170.69 MB, threshold=0.00 B
+    Memory Pool: Perm Gen (Non-heap memory): committed=12.00 MB, used=4.65 MB, max=64.00 MB, threshold=0.00 B
+2013-04-01 11:34:31.203+0000: Operating system information:
+    Operating System: Windows XP; version: 5.1; arch: x86; cpus: 4
+    Process id: 3412@Tejaswi_Comp
+    Byte order: LITTLE_ENDIAN
+    Local timezone: Asia/Calcutta
+2013-04-01 11:34:31.203+0000: JVM information:
+    VM Name: Java HotSpot(TM) Client VM
+    VM Vendor: Oracle Corporation
+    VM Version: 23.6-b04
+    JIT compiler: HotSpot Client Compiler
+    VM Arguments: [-Dfile.encoding=Cp1252]
+2013-04-01 11:34:31.203+0000: Java classpath:
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/localedata.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\sunrsasign.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/server-api-1.8.1.jar
+     [classpath + loader.0] file:/C:/eclipse/workspace/buganalyzer/bin/
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\charsets.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\classes
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/geronimo-jta_1.1_spec-1.1.1.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-graph-matching-1.8.1.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/sunec.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\jsse.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/zipfs.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\jce.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-lucene-index-1.8.1.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\resources.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\jfr.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-shell-1.8.1.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/scala-library-2.9.1-1.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/sunmscapi.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-jmx-1.8.1.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-cypher-1.8.1.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-graph-algo-1.8.1.jar
+     [bootstrap] C:\Program Files\Java\jdk1.7.0_11\jre\lib\rt.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-udc-1.8.1.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/sunpkcs11.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/jaccess.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/neo4j-kernel-1.8.1.jar
+     [classpath + loader.0] file:/D:/neo4j-community-1.8.1/lib/lucene-core-3.5.0.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/dnsns.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/access-bridge.jar
+     [loader.1] file:/C:/Program%20Files/Java/jdk1.7.0_11/jre/lib/ext/sunjce_provider.jar
+2013-04-01 11:34:31.203+0000: Library path:
+    C:\Program Files\Java\jdk1.7.0_11\jre\bin
+    C:\WINDOWS\Sun\Java\bin
+    C:\WINDOWS\system32
+    C:\WINDOWS
+    C:\Program Files\Java\jre7\bin\client
+    C:\Program Files\Java\jre7\bin
+    C:\Program Files\Java\jre7\lib\i386
+    C:\WINDOWS\system32
+    C:\WINDOWS
+    C:\WINDOWS\system32\wbem
+    C:\Program Files\Java\jdk1.7.0_15\bin
+    C:\Program Files\MiKTeX 2.9\miktex\bin
+    C:\eclipse
+    C:\eclipse\workspace\buganalyzer
+    C:\eclipse\workspace\buganalyzer
+2013-04-01 11:34:31.218+0000: System.properties:
+    sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_11\jre\bin
+    path.separator = ;
+    file.encoding.pkg = sun.io
+    user.country = US
+    user.script = 
+    sun.java.launcher = SUN_STANDARD
+    sun.os.patch.level = Service Pack 3
+    user.dir = C:\eclipse\workspace\buganalyzer
+    user.variant = 
+    sun.jnu.encoding = Cp1252
+    sun.management.compiler = HotSpot Client Compiler
+    user.home = C:\Documents and Settings\J2T
+    user.timezone = Asia/Calcutta
+    file.encoding = Cp1252
+    user.name = J2T
+    sun.java.command = org.j2t.buganalyzer.App
+    sun.arch.data.model = 32
+    user.language = en
+    awt.toolkit = sun.awt.windows.WToolkit
+    file.separator = \
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    sun.desktop = windows
+    sun.cpu.isalist = pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+2013-04-01 11:34:31.218+0000: Network information:
+    Interface MS TCP Loopback interface:
+        address: 127.0.0.1
+    Interface Realtek PCIe GBE Family Controller - Teefer2 Miniport:
+        address: 172.16.40.6
+2013-04-01 11:34:31.218+0000: --- STARTUP diagnostics END ---
+2013-04-01 11:34:31.218+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-04-01 11:34:31.281+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-04-01 11:34:31.281+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-04-01 11:34:31.281+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2013-04-01 11:34:31.281+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-04-01 11:34:31.281+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1364226193996, id:7348971443519364127, store version: 13561656364791302]
+2013-04-01 11:34:31.281+0000: Kernel version: Neo4j - Graph Database Kernel 1.8.1
+2013-04-01 11:34:31.281+0000: Neo4j component versions:
+2013-04-01 11:34:31.281+0000:   Neo4j - Graph Database Kernel 1.8.1
+2013-04-01 11:34:31.281+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-04-01 11:34:31.281+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-04-01 11:34:31.281+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-04-01 11:34:31.281+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-04-01 11:34:31.281+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-04-01 11:34:31.296+0000: Id usage:
+    Id usage:
+      NodeStore: used=123 high=122
+      RelationshipStore: used=1 high=0
+      RelationshipTypeStore: used=0 high=-1
+      PropertyStore: used=122 high=121
+      PropertyIndexStore: used=4 high=3
+      StringPropertyStore: used=146 high=145
+      ArrayPropertyStore: used=1 high=0
+2013-04-01 11:34:31.296+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-04-01 11:34:31.296+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-04-01 11:34:31.296+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-04-01 11:34:31.296+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-04-01 11:34:31.296+0000: Disk space on partition (Total / Free / Free %): 104855834624 / 82537467904 / 21
+Storage files: (filename : modification date - size)
+      active_tx_log: 2013-03-27T03:59:45+0530 - 11.00 B
+      index:
+        lucene-store.db: 2013-04-01T17:02:57+0530 - 40.00 B
+        lucene.log.1: 2013-04-01T17:04:31+0530 - 16.00 B
+        lucene.log.active: 2013-04-01T17:04:31+0530 - 4.00 B
+        lucene.log.v0: 2013-03-27T03:59:45+0530 - 16.00 B
+        lucene.log.v1: 2013-03-27T03:59:45+0530 - 16.00 B
+        lucene.log.v10: 2013-03-27T05:21:29+0530 - 16.00 B
+        lucene.log.v11: 2013-03-27T05:24:56+0530 - 16.00 B
+        lucene.log.v12: 2013-03-27T05:25:42+0530 - 16.00 B
+        lucene.log.v13: 2013-03-27T05:26:02+0530 - 16.00 B
+        lucene.log.v14: 2013-03-27T05:37:30+0530 - 16.00 B
+        lucene.log.v15: 2013-03-27T05:41:16+0530 - 16.00 B
+        lucene.log.v16: 2013-03-27T05:45:36+0530 - 16.00 B
+        lucene.log.v17: 2013-03-27T05:45:46+0530 - 16.00 B
+        lucene.log.v18: 2013-03-27T05:47:34+0530 - 16.00 B
+        lucene.log.v19: 2013-03-27T05:48:05+0530 - 16.00 B
+        lucene.log.v2: 2013-03-27T03:59:45+0530 - 16.00 B
+        lucene.log.v20: 2013-03-27T05:49:40+0530 - 16.00 B
+        lucene.log.v21: 2013-03-27T06:03:07+0530 - 16.00 B
+        lucene.log.v22: 2013-03-27T06:05:25+0530 - 16.00 B
+        lucene.log.v23: 2013-03-27T06:10:49+0530 - 16.00 B
+        lucene.log.v24: 2013-03-27T06:11:27+0530 - 16.00 B
+        lucene.log.v25: 2013-03-27T06:12:38+0530 - 16.00 B
+        lucene.log.v26: 2013-03-27T06:13:20+0530 - 16.00 B
+        lucene.log.v27: 2013-03-27T06:14:13+0530 - 16.00 B
+        lucene.log.v28: 2013-03-28T13:17:46+0530 - 16.00 B
+        lucene.log.v29: 2013-03-28T13:18:07+0530 - 16.00 B
+        lucene.log.v3: 2013-03-27T03:59:45+0530 - 16.00 B
+        lucene.log.v30: 2013-03-28T13:19:48+0530 - 16.00 B
+        lucene.log.v31: 2013-03-28T13:20:22+0530 - 16.00 B
+        lucene.log.v32: 2013-04-01T13:48:19+0530 - 16.00 B
+        lucene.log.v33: 2013-04-01T13:58:40+0530 - 16.00 B
+        lucene.log.v34: 2013-04-01T13:59:21+0530 - 16.00 B
+        lucene.log.v35: 2013-04-01T14:01:11+0530 - 16.00 B
+        lucene.log.v36: 2013-04-01T14:04:00+0530 - 16.00 B
+        lucene.log.v37: 2013-04-01T14:07:18+0530 - 16.00 B
+        lucene.log.v38: 2013-04-01T14:07:50+0530 - 16.00 B
+        lucene.log.v39: 2013-04-01T14:13:12+0530 - 16.00 B
+        lucene.log.v4: 2013-03-27T03:59:45+0530 - 16.00 B
+        lucene.log.v40: 2013-04-01T14:13:37+0530 - 16.00 B
+        lucene.log.v41: 2013-04-01T14:15:29+0530 - 16.00 B
+        lucene.log.v42: 2013-04-01T14:16:14+0530 - 16.00 B
+        lucene.log.v43: 2013-04-01T14:20:39+0530 - 16.00 B
+        lucene.log.v44: 2013-04-01T14:22:15+0530 - 16.00 B
+        lucene.log.v45: 2013-04-01T14:22:59+0530 - 16.00 B
+        lucene.log.v46: 2013-04-01T14:23:39+0530 - 16.00 B
+        lucene.log.v47: 2013-04-01T14:23:52+0530 - 16.00 B
+        lucene.log.v48: 2013-04-01T14:24:00+0530 - 16.00 B
+        lucene.log.v49: 2013-04-01T14:24:17+0530 - 16.00 B
+        lucene.log.v5: 2013-03-27T04:03:00+0530 - 16.00 B
+        lucene.log.v50: 2013-04-01T14:24:56+0530 - 16.00 B
+        lucene.log.v51: 2013-04-01T14:26:48+0530 - 16.00 B
+        lucene.log.v52: 2013-04-01T14:31:43+0530 - 16.00 B
+        lucene.log.v53: 2013-04-01T14:40:54+0530 - 16.00 B
+        lucene.log.v54: 2013-04-01T14:41:57+0530 - 16.00 B
+        lucene.log.v55: 2013-04-01T14:44:02+0530 - 16.00 B
+        lucene.log.v56: 2013-04-01T14:48:41+0530 - 16.00 B
+        lucene.log.v57: 2013-04-01T14:50:20+0530 - 16.00 B
+        lucene.log.v58: 2013-04-01T14:54:24+0530 - 16.00 B
+        lucene.log.v59: 2013-04-01T14:56:15+0530 - 16.00 B
+        lucene.log.v6: 2013-03-27T04:17:28+0530 - 16.00 B
+        lucene.log.v60: 2013-04-01T15:12:49+0530 - 16.00 B
+        lucene.log.v61: 2013-04-01T15:38:37+0530 - 16.00 B
+        lucene.log.v62: 2013-04-01T15:40:05+0530 - 16.00 B
+        lucene.log.v63: 2013-04-01T15:41:32+0530 - 16.00 B
+        lucene.log.v64: 2013-04-01T15:42:05+0530 - 16.00 B
+        lucene.log.v65: 2013-04-01T15:42:30+0530 - 16.00 B
+        lucene.log.v66: 2013-04-01T15:46:23+0530 - 16.00 B
+        lucene.log.v67: 2013-04-01T15:49:41+0530 - 16.00 B
+        lucene.log.v68: 2013-04-01T16:14:15+0530 - 16.00 B
+        lucene.log.v69: 2013-04-01T16:17:52+0530 - 16.00 B
+        lucene.log.v7: 2013-03-27T04:18:05+0530 - 16.00 B
+        lucene.log.v70: 2013-04-01T16:26:33+0530 - 16.00 B
+        lucene.log.v71: 2013-04-01T16:26:40+0530 - 16.00 B
+        lucene.log.v72: 2013-04-01T16:30:55+0530 - 16.00 B
+        lucene.log.v73: 2013-04-01T16:31:17+0530 - 16.00 B
+        lucene.log.v74: 2013-04-01T16:34:07+0530 - 16.00 B
+        lucene.log.v75: 2013-04-01T16:39:43+0530 - 16.00 B
+        lucene.log.v76: 2013-04-01T16:41:08+0530 - 16.00 B
+        lucene.log.v77: 2013-04-01T16:43:17+0530 - 16.00 B
+        lucene.log.v78: 2013-04-01T16:44:27+0530 - 16.00 B
+        lucene.log.v79: 2013-04-01T16:53:25+0530 - 16.00 B
+        lucene.log.v8: 2013-03-27T05:14:43+0530 - 16.00 B
+        lucene.log.v80: 2013-04-01T17:02:57+0530 - 16.00 B
+        lucene.log.v9: 2013-03-27T05:14:55+0530 - 16.00 B
+      - Total: 2013-04-01T17:04:31+0530 - 1.32 kB
+      lock: 2013-04-01T17:04:31+0530 - 0.00 B
+      messages.log: 2013-04-01T17:02:58+0530 - 1.93 MB
+      neostore: 2013-04-01T17:04:31+0530 - 54.00 B
+      neostore.id: 2013-04-01T17:02:58+0530 - 9.00 B
+      neostore.nodestore.db: 2013-04-01T17:04:31+0530 - 1.08 kB
+      neostore.nodestore.db.id: 2013-04-01T17:02:58+0530 - 9.00 B
+      neostore.propertystore.db: 2013-04-01T17:04:31+0530 - 4.88 kB
+      neostore.propertystore.db.arrays: 2013-04-01T17:04:31+0530 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-04-01T17:02:58+0530 - 9.00 B
+      neostore.propertystore.db.id: 2013-04-01T17:02:58+0530 - 9.00 B
+      neostore.propertystore.db.index: 2013-04-01T17:04:31+0530 - 36.00 B
+      neostore.propertystore.db.index.id: 2013-04-01T17:02:58+0530 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-04-01T17:04:31+0530 - 152.00 B
+      neostore.propertystore.db.index.keys.id: 2013-04-01T17:02:58+0530 - 9.00 B
+      neostore.propertystore.db.strings: 2013-04-01T17:04:31+0530 - 18.25 kB
+      neostore.propertystore.db.strings.id: 2013-04-01T17:02:58+0530 - 9.00 B
+      neostore.relationshipstore.db: 2013-04-01T17:04:31+0530 - 33.00 B
+      neostore.relationshipstore.db.id: 2013-04-01T17:02:58+0530 - 9.00 B
+      neostore.relationshiptypestore.db: 2013-04-01T17:04:31+0530 - 0.00 B
+      neostore.relationshiptypestore.db.id: 2013-04-01T17:02:57+0530 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-04-01T17:04:31+0530 - 38.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-04-01T17:02:57+0530 - 9.00 B
+      nioneo_logical.log.1: 2013-04-01T17:04:31+0530 - 16.00 B
+      nioneo_logical.log.active: 2013-04-01T17:04:31+0530 - 4.00 B
+      nioneo_logical.log.v0: 2013-03-27T03:59:45+0530 - 718.00 B
+      nioneo_logical.log.v1: 2013-03-27T03:59:45+0530 - 16.00 B
+      nioneo_logical.log.v10: 2013-03-27T05:21:29+0530 - 16.00 B
+      nioneo_logical.log.v11: 2013-03-27T05:24:56+0530 - 16.00 B
+      nioneo_logical.log.v12: 2013-03-27T05:25:43+0530 - 16.00 B
+      nioneo_logical.log.v13: 2013-03-27T05:26:03+0530 - 16.00 B
+      nioneo_logical.log.v14: 2013-03-27T05:37:32+0530 - 16.00 B
+      nioneo_logical.log.v15: 2013-03-27T05:41:17+0530 - 16.00 B
+      nioneo_logical.log.v16: 2013-03-27T05:45:36+0530 - 16.00 B
+      nioneo_logical.log.v17: 2013-03-27T05:45:47+0530 - 16.00 B
+      nioneo_logical.log.v18: 2013-03-27T05:47:34+0530 - 16.00 B
+      nioneo_logical.log.v19: 2013-03-27T05:48:05+0530 - 16.00 B
+      nioneo_logical.log.v2: 2013-03-27T03:59:45+0530 - 16.00 B
+      nioneo_logical.log.v20: 2013-03-27T05:49:40+0530 - 16.00 B
+      nioneo_logical.log.v21: 2013-03-27T06:03:07+0530 - 16.00 B
+      nioneo_logical.log.v22: 2013-03-27T06:10:48+0530 - 16.00 B
+      nioneo_logical.log.v23: 2013-03-27T06:10:49+0530 - 1.00 kB
+      nioneo_logical.log.v24: 2013-03-27T06:11:27+0530 - 916.00 B
+      nioneo_logical.log.v25: 2013-03-27T06:12:38+0530 - 3.93 kB
+      nioneo_logical.log.v26: 2013-03-27T06:13:20+0530 - 3.94 kB
+      nioneo_logical.log.v27: 2013-03-27T06:14:13+0530 - 910.00 B
+      nioneo_logical.log.v28: 2013-03-28T13:17:47+0530 - 910.00 B
+      nioneo_logical.log.v29: 2013-03-28T13:18:08+0530 - 910.00 B
+      nioneo_logical.log.v3: 2013-03-27T03:59:45+0530 - 16.00 B
+      nioneo_logical.log.v30: 2013-03-28T13:19:49+0530 - 910.00 B
+      nioneo_logical.log.v31: 2013-03-28T13:20:22+0530 - 910.00 B
+      nioneo_logical.log.v32: 2013-04-01T13:48:20+0530 - 910.00 B
+      nioneo_logical.log.v33: 2013-04-01T13:58:40+0530 - 910.00 B
+      nioneo_logical.log.v34: 2013-04-01T13:59:21+0530 - 910.00 B
+      nioneo_logical.log.v35: 2013-04-01T14:01:11+0530 - 910.00 B
+      nioneo_logical.log.v36: 2013-04-01T14:04:00+0530 - 910.00 B
+      nioneo_logical.log.v37: 2013-04-01T14:07:18+0530 - 667.00 B
+      nioneo_logical.log.v38: 2013-04-01T14:07:50+0530 - 667.00 B
+      nioneo_logical.log.v39: 2013-04-01T14:13:13+0530 - 667.00 B
+      nioneo_logical.log.v4: 2013-03-27T03:59:45+0530 - 667.00 B
+      nioneo_logical.log.v40: 2013-04-01T14:13:37+0530 - 667.00 B
+      nioneo_logical.log.v41: 2013-04-01T14:15:29+0530 - 667.00 B
+      nioneo_logical.log.v42: 2013-04-01T14:16:14+0530 - 667.00 B
+      nioneo_logical.log.v43: 2013-04-01T14:20:40+0530 - 667.00 B
+      nioneo_logical.log.v44: 2013-04-01T14:22:15+0530 - 667.00 B
+      nioneo_logical.log.v45: 2013-04-01T14:22:59+0530 - 910.00 B
+      nioneo_logical.log.v46: 2013-04-01T14:23:39+0530 - 667.00 B
+      nioneo_logical.log.v47: 2013-04-01T14:23:52+0530 - 910.00 B
+      nioneo_logical.log.v48: 2013-04-01T14:24:01+0530 - 667.00 B
+      nioneo_logical.log.v49: 2013-04-01T14:24:17+0530 - 667.00 B
+      nioneo_logical.log.v5: 2013-03-27T04:03:00+0530 - 553.00 B
+      nioneo_logical.log.v50: 2013-04-01T14:24:56+0530 - 910.00 B
+      nioneo_logical.log.v51: 2013-04-01T14:26:48+0530 - 667.00 B
+      nioneo_logical.log.v52: 2013-04-01T14:31:43+0530 - 910.00 B
+      nioneo_logical.log.v53: 2013-04-01T14:40:55+0530 - 909.00 B
+      nioneo_logical.log.v54: 2013-04-01T14:41:57+0530 - 2.16 kB
+      nioneo_logical.log.v55: 2013-04-01T14:44:02+0530 - 2.16 kB
+      nioneo_logical.log.v56: 2013-04-01T14:48:41+0530 - 2.15 kB
+      nioneo_logical.log.v57: 2013-04-01T14:50:20+0530 - 2.15 kB
+      nioneo_logical.log.v58: 2013-04-01T14:54:24+0530 - 1.57 kB
+      nioneo_logical.log.v59: 2013-04-01T14:56:16+0530 - 761.00 B
+      nioneo_logical.log.v6: 2013-03-27T04:17:29+0530 - 362.00 B
+      nioneo_logical.log.v60: 2013-04-01T15:12:49+0530 - 761.00 B
+      nioneo_logical.log.v61: 2013-04-01T15:38:38+0530 - 761.00 B
+      nioneo_logical.log.v62: 2013-04-01T15:40:05+0530 - 761.00 B
+      nioneo_logical.log.v63: 2013-04-01T15:41:32+0530 - 761.00 B
+      nioneo_logical.log.v64: 2013-04-01T15:42:05+0530 - 761.00 B
+      nioneo_logical.log.v65: 2013-04-01T15:42:30+0530 - 761.00 B
+      nioneo_logical.log.v66: 2013-04-01T15:46:24+0530 - 761.00 B
+      nioneo_logical.log.v67: 2013-04-01T15:49:42+0530 - 761.00 B
+      nioneo_logical.log.v68: 2013-04-01T16:14:15+0530 - 761.00 B
+      nioneo_logical.log.v69: 2013-04-01T16:17:52+0530 - 761.00 B
+      nioneo_logical.log.v7: 2013-03-27T04:18:05+0530 - 362.00 B
+      nioneo_logical.log.v70: 2013-04-01T16:26:34+0530 - 761.00 B
+      nioneo_logical.log.v71: 2013-04-01T16:26:41+0530 - 761.00 B
+      nioneo_logical.log.v72: 2013-04-01T16:30:55+0530 - 761.00 B
+      nioneo_logical.log.v73: 2013-04-01T16:31:17+0530 - 761.00 B
+      nioneo_logical.log.v74: 2013-04-01T16:34:08+0530 - 1.34 kB
+      nioneo_logical.log.v75: 2013-04-01T16:39:44+0530 - 1.34 kB
+      nioneo_logical.log.v76: 2013-04-01T16:41:09+0530 - 1.34 kB
+      nioneo_logical.log.v77: 2013-04-01T16:43:18+0530 - 1.34 kB
+      nioneo_logical.log.v78: 2013-04-01T16:44:27+0530 - 712.00 B
+      nioneo_logical.log.v79: 2013-04-01T16:53:25+0530 - 712.00 B
+      nioneo_logical.log.v8: 2013-03-27T05:14:43+0530 - 16.00 B
+      nioneo_logical.log.v80: 2013-04-01T17:02:57+0530 - 712.00 B
+      nioneo_logical.log.v9: 2013-03-27T05:14:55+0530 - 16.00 B
+      tm_tx_log.1: 2013-04-01T17:04:31+0530 - 0.00 B
+2013-04-01 11:34:31.328+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-04-01 11:34:31.328+0000: Started - database is now available
+2013-04-01 11:34:31.343+0000: GC Monitor started. 
+2013-04-01 11:34:31.531+0000: Stopping - database is now unavailable
+2013-04-01 11:34:31.546+0000: TM shutting down
+2013-04-01 11:34:31.562+0000: GC Monitor stopped. 
+2013-04-01 11:34:31.578+0000: Closed log C:\eclipse\workspace\buganalyzer\target\neo4j-db\index\lucene.log
+2013-04-01 11:34:31.875+0000: Closed log C:\eclipse\workspace\buganalyzer\target\neo4j-db\nioneo_logical.log
+2013-04-01 11:34:31.890+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-04-01 11:34:31.937+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-04-01 11:34:31.984+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.strings hit=2 miss=0 switches=0 ooe=0
+2013-04-01 11:34:32.046+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.index.keys hit=6 miss=0 switches=0 ooe=0
+2013-04-01 11:34:32.093+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.index hit=4 miss=0 switches=0 ooe=0
+2013-04-01 11:34:32.140+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-04-01 11:34:32.203+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.propertystore.db hit=5 miss=0 switches=0 ooe=0
+2013-04-01 11:34:32.250+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2013-04-01 11:34:32.312+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore.nodestore.db hit=3 miss=0 switches=0 ooe=0
+2013-04-01 11:34:32.359+0000: C:\eclipse\workspace\buganalyzer\target\neo4j-db\neostore hit=0 miss=19 switches=0 ooe=0
+2013-04-01 11:34:32.406+0000: NeoStore closed
+2013-04-01 11:34:32.406+0000: --- SHUTDOWN diagnostics START ---
+2013-04-01 11:34:32.406+0000: --- SHUTDOWN diagnostics END ---

@@ -1,16 +1,13 @@
 package org.j2t.buganalyzer;
 
 import java.io.IOException;
-
 import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.kernel.EmbeddedGraphDatabase;
 
 public class App
 {
     public static final String DB_PATH = "target/neo4j-db";
-    
     public static GraphDatabaseService gds = new EmbeddedGraphDatabase( DB_PATH );
-    
     private static void registerShutdownHook( final GraphDatabaseService graphDb )
     {
         Runtime.getRuntime( ).addShutdownHook( new Thread( )
@@ -37,11 +34,14 @@ public class App
         if( spr.getError( ) != null )
         {
             Bug[] b = BugAnalyzerHelper.createBugsFromError( spr.getError( ) );
+            int  count = 1;
             for( Bug a : b  )
             {
+                System.out.println( "-----Bug " + count + "------" );
                 System.out.println( "Bug Title:\n" + a.getTitle( ) );
                 System.out.println( "Bug Details:\n" + a.getDetails( ) );
                 System.out.println( "Bug Location:\n" + a.getLocation( ) );
+                count++;
             }
         }
         gds.shutdown( );
