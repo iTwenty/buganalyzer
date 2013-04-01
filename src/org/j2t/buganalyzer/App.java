@@ -39,9 +39,9 @@ public class App
             Bug[] b = BugAnalyzerHelper.createBugsFromError( spr.getError( ) );
             for( Bug a : b  )
             {
-                System.out.println( a.getTitle( ) );
-                System.out.println( a.getDetails( ) );
-                System.out.println( a.getLocation( ) );
+                System.out.println( "Bug Title:\n" + a.getTitle( ) );
+                System.out.println( "Bug Details:\n" + a.getDetails( ) );
+                System.out.println( "Bug Location:\n" + a.getLocation( ) );
             }
         }
         gds.shutdown( );
