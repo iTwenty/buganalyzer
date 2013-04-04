@@ -28,12 +28,11 @@ public class App
         //System.out.println( "Enter path to sample project" );
         projectPath = "c:/HelloWorld.jar";
         //sc.close( );
-        System.out.println( "Project Path:\t" + projectPath );
-        SampleProjectRunner spr = new SampleProjectRunner( projectPath );
-        spr.runProject( );
-        if( spr.getError( ) != null )
+        SampleProject sp = new SampleProject( projectPath );
+        sp.runProject( );
+        if( sp.getProjectError( ) != null )
         {
-            Bug[] b = BugAnalyzerHelper.createBugsFromError( spr.getError( ) );
+            Bug[] b = BugAnalyzerHelper.createBugsFromError( sp.getProjectError( ) );
             int  count = 1;
             for( Bug a : b  )
             {

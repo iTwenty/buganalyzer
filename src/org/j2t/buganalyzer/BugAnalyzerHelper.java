@@ -1,7 +1,9 @@
 package org.j2t.buganalyzer;
 
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class BugAnalyzerHelper
 {
@@ -68,5 +70,11 @@ public class BugAnalyzerHelper
             i++;
         }
         return errors;
+    }
+    
+    public static String convertStreamToString( InputStream is )
+    {
+        Scanner s = new Scanner( is ).useDelimiter( "\\A" );
+        return s.hasNext( ) ? s.next( ) : "";
     }
 }

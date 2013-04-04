@@ -41,7 +41,7 @@ public class Category
     {
         return underlyingNode;
     }
-
+    
     public void setUnderlyingNode( Node underlyingNode )
     {
         this.underlyingNode = underlyingNode;
