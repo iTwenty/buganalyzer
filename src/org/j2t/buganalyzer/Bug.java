@@ -9,11 +9,11 @@ public class Bug
     public static final String DETAILS = "details";
     public static final String LOCATION = "location";
     
-    Node underlyingNode;
-    Transaction tx;
-    String title;
-    String details;
-    String location;
+    private Node underlyingNode;
+    private Transaction tx;
+    private String title;
+    private String details;
+    private String location;
     
     public Bug( String title, String details, String location )
     {
@@ -76,5 +76,18 @@ public class Bug
     public void setUnderlyingNode( Node underlyingNode )
     {
         this.underlyingNode = underlyingNode;
+    }
+    
+    public void setCategory( Category c )
+    {
+        tx = underlyingNode.getGraphDatabase( ).beginTx( );
+        this.underlyingNode.createRelationshipTo( c.getUnderlyingNode( ), Relationships.BELONGS_TO );
+        tx.success( );
+        tx.finish( );
+    }
+    
+    public Category getCategory( )
+    {
+        return null;
     }
 }
