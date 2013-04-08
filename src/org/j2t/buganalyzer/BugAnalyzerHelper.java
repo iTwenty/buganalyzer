@@ -22,6 +22,7 @@ public class BugAnalyzerHelper
         return err.toArray( new String[err.size( )] );
     }
     
+    @SuppressWarnings ("resource" )
     public static String convertStreamToString( InputStream is )
     {
         Scanner s = new Scanner( is ).useDelimiter( "\\A" );

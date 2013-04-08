@@ -1,7 +1,13 @@
 package org.j2t.buganalyzer;
 
+import org.neo4j.graphdb.Direction;
 import org.neo4j.graphdb.Node;
+import org.neo4j.graphdb.Path;
 import org.neo4j.graphdb.Transaction;
+import org.neo4j.graphdb.traversal.Evaluator;
+import org.neo4j.graphdb.traversal.Evaluators;
+import org.neo4j.graphdb.traversal.TraversalDescription;
+import org.neo4j.kernel.Traversal;
 
 public class Bug
 {
@@ -14,6 +20,11 @@ public class Bug
     private String title;
     private String details;
     private String location;
+    private TraversalDescription td = Traversal.description( )
+            .depthFirst( )
+            .relationships( Relationships.BELONGS_TO, Direction.OUTGOING )
+            .evaluator( Evaluators.toDepth( 1 ) )
+            .evaluator( Evaluators.excludeStartPosition( ) );
     
     public Bug( String title, String details, String location )
     {
@@ -86,8 +97,13 @@ public class Bug
         tx.finish( );
     }
     
-    public Category getCategory( )
+    public String getCategory( )
     {
-        return null;
+        String s = null;
+        for( Node n : td.traverse( this.underlyingNode ).nodes( ) )
+        {
+            s = ( String ) n.getProperty( Category.NAME );
+        }
+        return s;
     }
 }
