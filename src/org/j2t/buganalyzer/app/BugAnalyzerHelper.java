@@ -9,6 +9,8 @@ import org.neo4j.graphdb.GraphDatabaseService;
 
 public class BugAnalyzerHelper
 {
+    public static String quotation = "\"";
+    
     public static String[] removeEmptyLines( String[] errorLines )
     {
         CopyOnWriteArrayList<String> err = new CopyOnWriteArrayList<String>( Arrays.asList( errorLines ) );

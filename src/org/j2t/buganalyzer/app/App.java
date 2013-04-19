@@ -37,6 +37,5 @@ public class App
                 MyDialog mf = new MyDialog( );
             }
         } );
-        gds.shutdown( );
     }
 }

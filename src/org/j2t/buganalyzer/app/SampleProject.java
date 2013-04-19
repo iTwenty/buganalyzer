@@ -19,7 +19,8 @@ public class SampleProject
     
     public int runProject( ) throws IOException, InterruptedException
     {
-        Process proc = Runtime.getRuntime( ).exec( "java -jar " + this.projectPath );
+        String[] cmdarray = { "java", "-jar", this.projectPath };
+        Process proc = Runtime.getRuntime( ).exec( cmdarray );
         InputStream op = proc.getInputStream( );
         InputStream err = proc.getErrorStream( );
         projectOutput = BugAnalyzerHelper.convertStreamToString( op );
@@ -90,24 +91,25 @@ public class SampleProject
         return errors;
     }
     
-    public void displayBugs( )
+    public String getBugRelations( )
     {
-      if( getProjectError( ) != null )
-      {
-          setProjectBugs( createBugsFromError( getProjectError( ) ) );
-          assignCategoriesToBugs( );
-          int count = 1;
-          for( Bug a : getProjectBugs( ) )
-          {
-              System.out.println( "-----Bug " + count + "------" );
-              System.out.println( a.getTitle( )
-                      + " --> " + a.getUnderlyingNode( )
-                      .getSingleRelationship( Relationships.BELONGS_TO, Direction.OUTGOING ).getType( )
-                      + " --> " + a.getCategory( ) );
-              a.getCategory( );
-              count++;
-          }
-      }
+        String s = "";
+        if( getProjectError( ) != null )
+        {
+            setProjectBugs( createBugsFromError( getProjectError( ) ) );
+            assignCategoriesToBugs( );
+            int count = 1;
+            for( Bug a : getProjectBugs( ) )
+            {
+                s += "-----Bug " + count + "------";
+                s += ( a.getTitle( ) + " --> " 
+                + a.getUnderlyingNode( ).getSingleRelationship( Relationships.BELONGS_TO, Direction.OUTGOING ).getType( )
+                + " --> " + a.getCategory( ) );
+                a.getCategory( );
+                count++;
+            }
+        }
+        return s;
     }
     
     public String getProjectError( )
