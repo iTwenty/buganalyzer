@@ -2,6 +2,7 @@ package org.j2t.buganalyzer.app;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 
 import org.neo4j.graphdb.Direction;
 
@@ -10,22 +11,27 @@ public class SampleProject
             String projectPath;
     private String projectError;
     private String projectOutput;
+    private String projectInput;
+    private Process process;
             Bug[ ] projectBugs;
     
-    public SampleProject( String s )
+    public SampleProject( String path, String input )
     {
-        this.projectPath = s;
+        this.projectPath = path;
+        this.projectInput = input;
     }
     
     public int runProject( ) throws IOException, InterruptedException
     {
         String[] cmdarray = { "java", "-jar", this.projectPath };
-        Process proc = Runtime.getRuntime( ).exec( cmdarray );
-        InputStream op = proc.getInputStream( );
-        InputStream err = proc.getErrorStream( );
+        process = Runtime.getRuntime( ).exec( cmdarray );
+        InputStream op = process.getInputStream( );
+        InputStream err = process.getErrorStream( );
+        OutputStream in = process.getOutputStream( );
+        in.write( projectInput.getBytes( ) );
         projectOutput = BugAnalyzerHelper.convertStreamToString( op );
         projectError = BugAnalyzerHelper.convertStreamToString( err );
-        return proc.waitFor( );
+        return process.waitFor( );
     }
     
     public void assignCategoriesToBugs( )
@@ -96,7 +102,7 @@ public class SampleProject
         String s = "";
         if( getProjectError( ) != null )
         {
-            setProjectBugs( createBugsFromError( getProjectError( ) ) );
+            this.projectBugs = createBugsFromError( getProjectError( ) );
             assignCategoriesToBugs( );
             int count = 1;
             for( Bug a : getProjectBugs( ) )
@@ -122,13 +128,18 @@ public class SampleProject
         return projectOutput;
     }
     
+    public void setProjectInput( )
+    {
+        this.projectInput = projectInput;
+    }
+
+    public Process getProcess( )
+    {
+        return process;
+    }
+
     public Bug[ ] getProjectBugs( )
     {
         return projectBugs;
-    }
-    
-    public void setProjectBugs( Bug[ ] projectBugs )
-    {
-        this.projectBugs = projectBugs;
     }
 }

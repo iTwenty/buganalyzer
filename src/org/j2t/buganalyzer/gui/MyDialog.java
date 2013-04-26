@@ -1,6 +1,5 @@
 package org.j2t.buganalyzer.gui;
 
-import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -12,6 +11,7 @@ import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JFileChooser;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
@@ -112,22 +112,22 @@ public class MyDialog extends JDialog
         int returnVal = jarFileChooser.showOpenDialog( null );
         if( returnVal == JFileChooser.APPROVE_OPTION )
         {
-           runFile( );
+            runFile( JOptionPane.showInputDialog( "Input to JAR file" ) );
         }
     }
     
-    public void runFile( )
+    public void runFile( String inputString )
     {
         this.projectPath = jarFileChooser.getSelectedFile( ).getAbsolutePath( );
         jarFilePath.setText( projectPath );
-        SampleProject sp = new SampleProject( projectPath );
+        SampleProject sp = new SampleProject( projectPath, inputString );
         try
         {
             sp.runProject( );
         }
         catch( IOException | InterruptedException e )
         {
-            e.printStackTrace();
+            e.printStackTrace( );
         }
         outputText.setText( sp.getProjectOutput( ) );
         errorsText.setText( sp.getBugRelations( ) );
