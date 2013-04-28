@@ -11,7 +11,6 @@ import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JFileChooser;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
@@ -42,6 +41,7 @@ public class MyDialog extends JDialog
 
     JScrollPane  errorsPane;
     JTextArea    errorsText;
+    JButton      generatePDFButton;
 
     public MyDialog( )
     {
@@ -104,7 +104,10 @@ public class MyDialog extends JDialog
     {
         errorsText = new JTextArea( 10, 10 );
         errorsPane = new JScrollPane( errorsText );
+        generatePDFButton = new JButton( "Generate PDF" );
         errorsPanel.add( errorsPane );
+        errorsPanel.add( generatePDFButton );
+        generatePDFButton.setVisible( false );
     }
     
     public void selectFile( )
@@ -112,18 +115,24 @@ public class MyDialog extends JDialog
         int returnVal = jarFileChooser.showOpenDialog( null );
         if( returnVal == JFileChooser.APPROVE_OPTION )
         {
-            runFile( JOptionPane.showInputDialog( "Input to JAR file" ) );
+            runFile( );
         }
     }
     
-    public void runFile( String inputString )
+    public void runFile( )
     {
         this.projectPath = jarFileChooser.getSelectedFile( ).getAbsolutePath( );
         jarFilePath.setText( projectPath );
-        SampleProject sp = new SampleProject( projectPath, inputString );
+        SampleProject sp = new SampleProject( projectPath );
         try
         {
             sp.runProject( );
+            if( sp.getProjectBugs( ).length != 0 )
+            {
+                generatePDFButton.setVisible( true );
+                this.revalidate( );
+                this.repaint( );
+            }
         }
         catch( IOException | InterruptedException e )
         {

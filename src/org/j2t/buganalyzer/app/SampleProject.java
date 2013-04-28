@@ -5,33 +5,40 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 import org.neo4j.graphdb.Direction;
+import org.neo4j.graphdb.GraphDatabaseService;
+import org.neo4j.kernel.EmbeddedGraphDatabase;
 
 public class SampleProject
 {
-            String projectPath;
-    private String projectError;
-    private String projectOutput;
-    private String projectInput;
-    private Process process;
-            Bug[ ] projectBugs;
+    String                      projectPath;
+    private String              projectError;
+    private String              projectOutput;
+    private Process             process;
+    Bug[]                       projectBugs;
+    public GraphDatabaseService gds;
     
-    public SampleProject( String path, String input )
+    public SampleProject( String path )
     {
         this.projectPath = path;
-        this.projectInput = input;
+        gds = new EmbeddedGraphDatabase( App.DB_PATH + path.substring( path.lastIndexOf( "/" ) + 1, path.indexOf( "." ) ) );
     }
     
     public int runProject( ) throws IOException, InterruptedException
     {
+        int retval;
         String[] cmdarray = { "java", "-jar", this.projectPath };
-        process = Runtime.getRuntime( ).exec( cmdarray );
+        Process process = new ProcessBuilder( cmdarray ).start( );
         InputStream op = process.getInputStream( );
         InputStream err = process.getErrorStream( );
-        OutputStream in = process.getOutputStream( );
-        in.write( projectInput.getBytes( ) );
+        retval = process.waitFor( );
         projectOutput = BugAnalyzerHelper.convertStreamToString( op );
         projectError = BugAnalyzerHelper.convertStreamToString( err );
-        return process.waitFor( );
+        if( projectError != null )
+        {
+            this.projectBugs = createBugsFromError( projectError );
+            assignCategoriesToBugs( );
+        }
+        return retval;
     }
     
     public void assignCategoriesToBugs( )
@@ -69,7 +76,7 @@ public class SampleProject
             // If current line does not begin with tab, it is the title of the current bug
             if( ! ( errorLines[i].startsWith( "\t" ) ) )
             {
-                errors[j].setTitle( "\t" + errorLines[i] );
+                errors[j].setTitle( errorLines[i] );
             }
             // If it does begin with tab...
             else
@@ -100,18 +107,17 @@ public class SampleProject
     public String getBugRelations( )
     {
         String s = "";
-        if( getProjectError( ) != null )
+        if( projectBugs.length != 0 )
         {
             this.projectBugs = createBugsFromError( getProjectError( ) );
             assignCategoriesToBugs( );
             int count = 1;
-            for( Bug a : getProjectBugs( ) )
+            for( Bug a : projectBugs )
             {
-                s += "-----Bug " + count + "------";
-                s += ( a.getTitle( ) + " --> " 
-                + a.getUnderlyingNode( ).getSingleRelationship( Relationships.BELONGS_TO, Direction.OUTGOING ).getType( )
-                + " --> " + a.getCategory( ) );
-                a.getCategory( );
+                s += "-----Bug " + count + "------\n";
+                s += a.toString( );
+                s += "Category\n";
+                s += ( "\t" + a.getCategory( ) );
                 count++;
             }
         }
@@ -126,11 +132,6 @@ public class SampleProject
     public String getProjectOutput( )
     {
         return projectOutput;
-    }
-    
-    public void setProjectInput( )
-    {
-        this.projectInput = projectInput;
     }
 
     public Process getProcess( )

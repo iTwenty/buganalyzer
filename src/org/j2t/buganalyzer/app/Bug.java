@@ -104,4 +104,16 @@ public class Bug
         }
         return s;
     }
+    
+    public String toString( )
+    {
+        String s = "";
+        s += "Title\n";
+        s += ( "\t" + this.getTitle( ) + "\n");
+        s += "Location\n";
+        s += ( this.getLocation( ) + "\n" );
+        s += "Details\n";
+        s += ( this.getDetails( ) + "\n" );
+        return s;
+    }
 }
