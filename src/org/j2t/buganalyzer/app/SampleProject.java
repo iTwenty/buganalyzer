@@ -87,10 +87,17 @@ public class SampleProject
     {
         for( Bug b : projectBugs )
         {
-            if( b.getTitle( ).contains( "Exception" ) );
-            {
-                b.setCategory( BugCategories.Arithmetic );
-            }
+            String title = b.getTitle( );
+            if( title.contains( "NumberFormat" ) || title.contains( "Arithmetic" ) )
+                b.setCategory( BugCategories.arithmeticError );
+            if( title.contains( "ClassNotFound" ) || title.contains( "NoSuchMethod" ) || title.contains( "ClassDefinition" ) )
+                b.setCategory( BugCategories.classDefinitionError );
+            if( title.contains( "XML" ) || title.contains( "SAX" ) )
+                b.setCategory( BugCategories.xmlError );
+            if( title.contains( "IndexOutOfBOunds" ) || title.contains( "NegativeArraySize" ) )
+                b.setCategory( BugCategories.arrayIndexError );
+            if( title.contains( "NullPointer" ) )
+                b.setCategory( BugCategories.nullPointerError );
         }
     }
     
@@ -151,15 +158,13 @@ public class SampleProject
         String s = "";
         if( projectBugs.length != 0 )
         {
-            this.projectBugs = createBugsFromError( getProjectError( ) );
-            assignCategoriesToBugs( );
             int count = 1;
             for( Bug a : projectBugs )
             {
                 s += "-----Bug " + count + "------\n";
                 s += a.toString( );
                 s += "Category\n";
-                s += ( "\t" + a.getCategory( ) );
+                s += ( "\t" + a.getCategory( ) + "\n\n" );
                 count++;
             }
         }
@@ -193,7 +198,7 @@ public class SampleProject
         pm.getProperties( ).putValue( PreviewProperty.EDGE_COLOR, new EdgeColor( Color.GREEN ) );
         pm.getProperties( ).putValue( PreviewProperty.EDGE_THICKNESS, new Float( 0.1f ) );
         pm.getProperties( ).putValue( PreviewProperty.NODE_LABEL_COLOR, new DependantOriginalColor( Color.BLACK ) );
-        pm.getProperties( ).putValue( PreviewProperty.NODE_LABEL_FONT, pm.getProperties( ).getFontValue( PreviewProperty.NODE_LABEL_FONT ).deriveFont( 20 ) );
+        pm.getProperties( ).putValue( PreviewProperty.NODE_LABEL_FONT, pm.getProperties( ).getFontValue( PreviewProperty.NODE_LABEL_FONT ).deriveFont( 20.0f ) );
         ExportController ec = Lookup.getDefault( ).lookup( ExportController.class );
         try
         {
