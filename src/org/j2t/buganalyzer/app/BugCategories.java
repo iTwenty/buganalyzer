@@ -1,8 +1,13 @@
 package org.j2t.buganalyzer.app;
 
+import org.neo4j.graphdb.GraphDatabaseService;
+
 public class BugCategories
 {
-    public static final Category Arithmetic = new Category( "Arithmetic Error" );
-    public static final Category Array = new Category( "Arrays Bug" );
-
+    public static Category Arithmetic;
+    
+    public static void createCategories( GraphDatabaseService gds )
+    {
+        Arithmetic = new Category( "Arithmetic Error", gds );
+    }
 }

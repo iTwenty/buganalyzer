@@ -1,5 +1,6 @@
 package org.j2t.buganalyzer.app;
 
+import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.graphdb.Node;
 import org.neo4j.graphdb.Transaction;
 
@@ -10,11 +11,13 @@ public class Category
     Node underlyingNode;
     Transaction tx;
     String name;
+    public GraphDatabaseService gds;
     
-    public Category( String name )
+    public Category( String name, GraphDatabaseService gds )
     {
-        tx = App.gds.beginTx( );
-        underlyingNode = App.gds.createNode( );
+        this.gds = gds;
+        tx = gds.beginTx( );
+        underlyingNode = gds.createNode( );
         underlyingNode.setProperty( NAME, name );
         tx.success( );
         tx.finish( );

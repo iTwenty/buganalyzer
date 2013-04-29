@@ -1,6 +1,7 @@
 package org.j2t.buganalyzer.app;
 
 import org.neo4j.graphdb.Direction;
+import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.graphdb.Node;
 import org.neo4j.graphdb.Transaction;
 import org.neo4j.graphdb.traversal.Evaluators;
@@ -18,16 +19,18 @@ public class Bug
     private String title;
     private String details;
     private String location;
+    private GraphDatabaseService gds;
     private TraversalDescription td = Traversal.description( )
             .depthFirst( )
             .relationships( Relationships.BELONGS_TO, Direction.OUTGOING )
             .evaluator( Evaluators.toDepth( 1 ) )
             .evaluator( Evaluators.excludeStartPosition( ) );
     
-    public Bug( String title, String details, String location )
+    public Bug( String title, String details, String location, GraphDatabaseService gds )
     {
-        tx = App.gds.beginTx( );
-        underlyingNode = App.gds.createNode( );
+        this.gds = gds;
+        tx = gds.beginTx( );
+        underlyingNode = gds.createNode( );
         underlyingNode.setProperty( TITLE, title );
         underlyingNode.setProperty( DETAILS, details );
         underlyingNode.setProperty( LOCATION, location );

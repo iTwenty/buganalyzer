@@ -123,7 +123,7 @@ public class MyDialog extends JDialog
     {
         this.projectPath = jarFileChooser.getSelectedFile( ).getAbsolutePath( );
         jarFilePath.setText( projectPath );
-        SampleProject sp = new SampleProject( projectPath );
+        final SampleProject sp = new SampleProject( projectPath );
         try
         {
             sp.runProject( );
@@ -132,6 +132,14 @@ public class MyDialog extends JDialog
                 generatePDFButton.setVisible( true );
                 this.revalidate( );
                 this.repaint( );
+                generatePDFButton.addActionListener( new ActionListener( )
+                {
+                    @Override
+                    public void actionPerformed( ActionEvent e )
+                    {
+                        sp.generatePDF( getPathtoPDF( ) );
+                    }
+                } );    
             }
         }
         catch( IOException | InterruptedException e )
@@ -140,5 +148,18 @@ public class MyDialog extends JDialog
         }
         outputText.setText( sp.getProjectOutput( ) );
         errorsText.setText( sp.getBugRelations( ) );
+    }
+    
+    public String getPathtoPDF( )
+    {
+        JFileChooser pdfFileChooser = new JFileChooser( );
+        FileNameExtensionFilter pdfFilter = new FileNameExtensionFilter( "PDF File", "pdf" );
+        pdfFileChooser.setFileFilter( pdfFilter );
+        int retval = pdfFileChooser.showOpenDialog( null );
+        if( retval == JFileChooser.APPROVE_OPTION )
+        {
+            return pdfFileChooser.getSelectedFile( ).getAbsolutePath( );
+        }
+        return "/home/itwenty/out.pdf";
     }
 }
